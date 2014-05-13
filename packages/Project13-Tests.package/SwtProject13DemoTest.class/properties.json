@@ -1,0 +1,14 @@
+{
+	"category" : "Project13-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"demo" ],
+	"name" : "SwtProject13DemoTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
