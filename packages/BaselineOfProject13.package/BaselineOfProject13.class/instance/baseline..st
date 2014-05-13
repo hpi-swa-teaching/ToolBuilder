@@ -5,7 +5,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'Project13Core';
+				package: 'Project13-Core';
 				package: 'Project13-Tests' with: [spec requires: #('default')].
 			spec
 				group: 'default' with: #('Project13-Core');
