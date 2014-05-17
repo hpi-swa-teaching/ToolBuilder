@@ -1,0 +1,31 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RoundedButtonCorners" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"label",
+		"getStateSelector",
+		"actionSelector",
+		"getLabelSelector",
+		"getMenuSelector",
+		"shortcutCharacter",
+		"askBeforeChanging",
+		"triggerOnMouseDown",
+		"offColor",
+		"onColor",
+		"feedbackColor",
+		"showSelectionFeedback",
+		"allButtons",
+		"arguments",
+		"argumentsProvider",
+		"argumentsSelector",
+		"style" ],
+	"name" : "PluggableButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }
