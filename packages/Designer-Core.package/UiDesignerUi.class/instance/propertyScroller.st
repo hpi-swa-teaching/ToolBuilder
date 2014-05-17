@@ -1,5 +1,5 @@
 accessing
 propertyScroller
-	"nil"
+	"No description given."
 	
 	^ propertyScroller
