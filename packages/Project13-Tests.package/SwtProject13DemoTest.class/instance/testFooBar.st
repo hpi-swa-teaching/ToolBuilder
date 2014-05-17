@@ -1,3 +1,3 @@
 running
 testFooBar
-	self assert: self demo foobar = 1234
+	self assert: self demo foobar = 123456
