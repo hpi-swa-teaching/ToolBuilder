@@ -1,0 +1,14 @@
+{
+	"category" : "testUiProject13",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "MyDialog",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
