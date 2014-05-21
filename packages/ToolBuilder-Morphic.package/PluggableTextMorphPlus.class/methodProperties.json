@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept" : "ar 7/16/2005 19:02",
+		"acceptAction" : "ar 7/16/2005 19:01",
+		"acceptAction:" : "ar 7/16/2005 19:01",
+		"acceptTextInModel" : "ar 8/17/2009 23:48",
+		"correctFrom:to:with:" : "ar 8/17/2009 23:49",
+		"getColorSelector" : "ar 2/11/2005 21:21",
+		"getColorSelector:" : "ar 2/11/2005 21:21",
+		"getMenu:" : "cwp 11/20/2011 23:15",
+		"hasUnacceptedEdits:" : "ar 8/17/2009 23:50",
+		"okToStyle" : "ar 8/17/2009 23:53",
+		"setText:" : "ar 8/21/2009 21:58",
+		"styler" : "ar 8/17/2009 23:51",
+		"styler:" : "ar 8/17/2009 23:50",
+		"stylerStyled:" : "cmm 7/26/2013 10:39",
+		"stylerStyledInBackground:" : "ar 8/17/2009 23:52",
+		"update:" : "ar 2/11/2005 21:22",
+		"useDefaultStyler" : "ar 8/18/2009 00:07" } }

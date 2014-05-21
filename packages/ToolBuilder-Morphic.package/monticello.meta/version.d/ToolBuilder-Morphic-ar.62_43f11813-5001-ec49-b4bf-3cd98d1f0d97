@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ar.62'message 'Merging ToolBuilder-Morphic-fbs.60:Use PluggableListSpec''s new #color.... if it''s set to something non-nil.'id '43f11813-5001-ec49-b4bf-3cd98d1f0d97'date '5 May 2010'time '10:38:09.775 pm'author 'ar'ancestors ((id '42c6e9ee-77b1-774d-8f9b-3a18d21357b1') (id '0840eaa0-2ce1-694e-a5f5-b1e05e76920a'))stepChildren ())

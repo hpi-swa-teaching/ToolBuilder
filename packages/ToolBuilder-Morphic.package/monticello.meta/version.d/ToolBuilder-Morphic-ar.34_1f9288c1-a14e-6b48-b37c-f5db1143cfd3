@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ar.34'message 'Small tweak to Morphic Toolbuilder''s code pane construction. The styler should be set before the text to avoid retrieving, setting, and formatting it multiple times.'id '1f9288c1-a14e-6b48-b37c-f5db1143cfd3'date '21 August 2009'time '10:05:16 am'author 'ar'ancestors ((id '24011982-09c0-804b-b911-0300480c1229'))stepChildren ())

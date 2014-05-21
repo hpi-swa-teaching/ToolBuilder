@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-cmm.85'message '- TreeMorph:  allow drop-target callbacks to interrogate the shouldCopy argument.- After the drop operation is complete, remove the drop highlight.'id '86972436-d2b6-4b86-b2c8-11f321fb7fad'date '27 May 2012'time '9:59:06.378 pm'author 'cmm'ancestors ((id '79c1027a-8ca6-4684-9c2e-38d729742bc4'))stepChildren ())

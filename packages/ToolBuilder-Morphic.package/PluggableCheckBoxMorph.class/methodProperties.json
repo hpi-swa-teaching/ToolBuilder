@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"isWidgetClass" : "SK 5/21/2014 21:27",
+		"on:getState:action:label:" : "rww 9/11/2010 03:44",
+		"widgetCategory" : "SK 5/21/2014 20:54",
+		"widgetClassName" : "SK 5/21/2014 21:27",
+		"widgetProperties" : "SK 5/21/2014 20:53" },
+	"instance" : {
+		"actionSelector" : "rww 9/11/2010 03:37",
+		"actionSelector:" : "rww 9/11/2010 03:37",
+		"basicPanel" : "rww 9/11/2010 04:10",
+		"horizontalPanel" : "rww 9/11/2010 04:10",
+		"installButton" : "rww 9/11/2010 03:36",
+		"label" : "rww 9/11/2010 03:37",
+		"label:" : "rww 9/11/2010 03:37",
+		"model" : "rww 9/11/2010 03:38",
+		"model:" : "rww 9/11/2010 03:37",
+		"on:getState:action:label:menu:" : "rww 9/11/2010 03:45",
+		"valueSelector" : "rww 9/11/2010 03:37",
+		"valueSelector:" : "rww 9/11/2010 03:37" } }

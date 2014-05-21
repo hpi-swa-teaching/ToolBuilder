@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "bf 6/11/2012 17:16",
+		"dragItemSelector" : "ar 7/15/2005 11:24",
+		"dragItemSelector:" : "ar 7/15/2005 11:26",
+		"dropItemSelector" : "ar 7/15/2005 11:25",
+		"dropItemSelector:" : "ar 7/15/2005 11:25",
+		"startDrag:" : "cmm 9/11/2011 13:01",
+		"wantsDropSelector" : "ar 7/15/2005 12:07",
+		"wantsDropSelector:" : "ar 7/15/2005 12:07",
+		"wantsDroppedMorph:event:" : "ar 7/15/2005 12:08" } }

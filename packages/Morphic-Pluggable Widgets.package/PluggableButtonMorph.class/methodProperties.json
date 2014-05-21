@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"example" : "dtl 2/12/2010 19:17",
+		"isWidgetClass" : "SK 5/21/2014 21:22",
 		"on:" : "",
 		"on:getState:action:" : "jm 5/4/1998 15:28",
 		"on:getState:action:label:" : "jm 5/4/1998 15:28",
@@ -8,6 +9,7 @@
 		"roundedButtonCorners" : "tfel 2/28/2010 13:35",
 		"roundedButtonCorners:" : "tfel 2/28/2010 14:06",
 		"widgetCategory" : "SK 5/20/2014 16:09",
+		"widgetClassName" : "SK 5/21/2014 21:13",
 		"widgetProperties" : "SK 5/20/2014 16:05" },
 	"instance" : {
 		"action:" : "",

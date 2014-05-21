@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ul.89'message 'Optimized version of ListChooser>>updateFilter. Don''t add any stars to the pattern if the user added some already.'id 'f1b278f5-477a-47b4-bc8a-eec006d343fc'date '2 March 2013'time '1:36:31.1 am'author 'ul'ancestors ((id '4d9369c3-4545-408c-8fdf-976048e72eb0'))stepChildren ())

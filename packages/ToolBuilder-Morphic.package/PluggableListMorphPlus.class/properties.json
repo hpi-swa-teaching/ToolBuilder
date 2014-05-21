@@ -1,0 +1,16 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/15/2005 11:10",
+	"instvars" : [
+		"dragItemSelector",
+		"dropItemSelector",
+		"wantsDropSelector" ],
+	"name" : "PluggableListMorphPlus",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"type" : "normal" }

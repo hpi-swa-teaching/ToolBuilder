@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"isActiveManager" : "ar 2/11/2005 15:41" },
+	"instance" : {
+		"chooseClassOrTrait:from:" : "ul 12/12/2010 22:00",
+		"chooseDirectory:from:" : "ar 7/16/2005 19:37",
+		"chooseFileMatching:label:" : "ar 7/17/2005 00:28",
+		"chooseFont:for:setSelector:getSelector:" : "ar 8/30/2009 17:01",
+		"chooseFrom:lines:title:" : "cmm 3/15/2010 18:32",
+		"chooseFrom:values:lines:title:" : "cmm 3/15/2010 18:32",
+		"confirm:" : "ar 12/12/2009 00:28",
+		"confirm:orCancel:" : "ar 12/12/2009 00:28",
+		"confirm:trueChoice:falseChoice:" : "ar 1/23/2010 14:38",
+		"displayProgress:at:from:to:during:" : "cmm 5/27/2011 14:05",
+		"edit:label:accept:" : "ar 7/22/2010 14:27",
+		"inform:" : "ar 12/12/2009 00:28",
+		"informUserDuring:" : "ul 6/18/2011 11:07",
+		"initialize" : "dtl 2/12/2011 15:56",
+		"multiLineRequest:centerAt:initialAnswer:answerHeight:" : "ar 8/4/2009 22:17",
+		"newDisplayDepthNoRestore:" : "fbs 10/31/2013 08:02",
+		"request:initialAnswer:" : "ar 8/4/2009 22:15",
+		"request:initialAnswer:centerAt:" : "dtl 2/12/2010 19:52",
+		"requestPassword:" : "ar 8/4/2009 22:15",
+		"restoreDisplay" : "fbs 10/31/2013 17:07",
+		"restoreDisplayAfter:" : "ul 12/29/2013 19:24" } }

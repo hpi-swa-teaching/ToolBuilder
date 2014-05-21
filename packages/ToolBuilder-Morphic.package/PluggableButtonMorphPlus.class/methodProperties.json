@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"action" : "ar 2/11/2005 20:53",
+		"action:" : "ar 2/11/2005 20:55",
+		"enabled" : "dc 1/9/2008 18:17",
+		"enabled:" : "bf 5/27/2005 19:42",
+		"getColorSelector" : "ar 2/11/2005 21:36",
+		"getColorSelector:" : "ar 2/11/2005 21:36",
+		"getEnabledSelector" : "ar 2/11/2005 19:51",
+		"getEnabledSelector:" : "ar 6/21/2005 11:01",
+		"initialize" : "ar 8/7/2009 21:32",
+		"mouseDown:" : "ar 2/11/2005 19:52",
+		"mouseMove:" : "ar 2/11/2005 19:52",
+		"mouseUp:" : "ar 2/11/2005 19:53",
+		"onColor:offColor:" : "stephaneducasse 2/3/2006 22:35",
+		"performAction" : "ar 2/11/2005 20:54",
+		"update:" : "dtl 9/24/2011 11:21",
+		"updateMap" : "dtl 9/24/2011 08:54",
+		"whenChanged:update:" : "dtl 9/24/2011 08:54" } }

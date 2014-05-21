@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-cwp.83'message 'Extended PluggableTextMorphPlus to support a getMenuSelector with 3 arguments. The third argument, if present, will be the current selection interval.'id 'a68565e9-cad9-439f-a9fb-85c5f168cd74'date '22 November 2011'time '9:22:53.997 pm'author 'cwp'ancestors ((id '5767de11-4ec1-4115-a16c-9030c8482dfc'))stepChildren ())

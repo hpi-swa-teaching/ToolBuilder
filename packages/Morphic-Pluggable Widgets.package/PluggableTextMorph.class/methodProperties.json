@@ -3,11 +3,13 @@
 		"adornmentCache" : "ar 2/26/2010 16:23",
 		"adornmentWithColor:" : "ar 2/26/2010 16:33",
 		"flushAdornmentCache" : "ar 2/26/2010 16:23",
+		"isWidgetClass" : "SK 5/21/2014 21:26",
 		"on:text:accept:" : "di 4/7/98 16:03",
 		"on:text:accept:readSelection:menu:" : "di 4/7/98 16:03",
 		"simpleFrameAdornments" : "ar 3/1/2010 19:43",
 		"simpleFrameAdornments:" : "ar 3/1/2010 19:40",
 		"widgetCategory" : "SK 5/20/2014 16:21",
+		"widgetClassName" : "SK 5/21/2014 21:25",
 		"widgetProperties" : "SK 5/21/2014 19:59" },
 	"instance" : {
 		"accept" : "ar 6/17/2010 19:52",

@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ar.61'message 'Do not enable syntax highlighting by default when using UIManager>>edit:label:accept: since this may be used for non-code editing requests.'id '42c6e9ee-77b1-774d-8f9b-3a18d21357b1'date '5 May 2010'time '8:53:09.963 am'author 'ar'ancestors ((id '6aaa34a1-31dc-49e2-90ca-dfae6b4c6acb'))stepChildren ())

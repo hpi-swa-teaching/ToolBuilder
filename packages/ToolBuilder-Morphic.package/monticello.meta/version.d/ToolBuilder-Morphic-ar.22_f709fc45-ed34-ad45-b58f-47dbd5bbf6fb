@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ar.22'message 'Fix an old bug in MorphicToolBuilder which would ignore the default size of the model being opened.'id 'f709fc45-ed34-ad45-b58f-47dbd5bbf6fb'date '28 July 2009'time '11:58 am'author 'ar'ancestors ((id '2aac6ca1-3463-4970-b7bb-036bf912be9e'))stepChildren ())

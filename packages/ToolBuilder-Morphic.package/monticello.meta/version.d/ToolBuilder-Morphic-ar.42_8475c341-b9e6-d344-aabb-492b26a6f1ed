@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-ar.42'message 'Use a simple chooser tool instead of menus for lists that are very long. Makes it easier to find things since scrolling is required anyway.'id '8475c341-b9e6-d344-aabb-492b26a6f1ed'date '10 December 2009'time '12:27:33 pm'author 'ar'ancestors ((id '8428289a-ba03-a748-ae56-e5438d98e932'))stepChildren ())

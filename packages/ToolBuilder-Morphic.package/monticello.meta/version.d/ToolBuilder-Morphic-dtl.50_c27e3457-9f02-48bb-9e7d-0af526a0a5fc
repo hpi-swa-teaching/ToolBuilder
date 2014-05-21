@@ -1,0 +1,1 @@
+(name 'ToolBuilder-Morphic-dtl.50'message 'Add MorphicUIManager>>request:initialAnswer:centerAt: to remove MVC dependency from MessageSet.'id 'c27e3457-9f02-48bb-9e7d-0af526a0a5fc'date '12 February 2010'time '10:01:44.628 pm'author 'dtl'ancestors ((id '411cb04c-628b-6644-99c5-95f902ffeac1'))stepChildren ())
