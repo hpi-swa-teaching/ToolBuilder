@@ -1,6 +1,6 @@
 code generation
 createUiClass
-
+	
 	(Smalltalk at: self uiClassName asSymbol ifAbsent: [])
 		ifNotNil: [:uic |
 			uic selectors copy do: [:selector | uic removeSelector: selector].

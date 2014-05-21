@@ -2,6 +2,7 @@ code generation
 createUiPanelCode
 
 	| stream uiClassTemplate |
+	self halt.
 	uiClassTemplate := 'panel setProperty: #uiClassName toValue: ''{1}''.'.
 	stream := WriteStream on: ''.
 	
