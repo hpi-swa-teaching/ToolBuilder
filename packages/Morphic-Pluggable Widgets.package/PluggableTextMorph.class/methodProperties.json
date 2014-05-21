@@ -6,7 +6,8 @@
 		"on:text:accept:" : "di 4/7/98 16:03",
 		"on:text:accept:readSelection:menu:" : "di 4/7/98 16:03",
 		"simpleFrameAdornments" : "ar 3/1/2010 19:43",
-		"simpleFrameAdornments:" : "ar 3/1/2010 19:40" },
+		"simpleFrameAdornments:" : "ar 3/1/2010 19:40",
+		"widgetCategory" : "SK 5/20/2014 16:21" },
 	"instance" : {
 		"accept" : "ar 6/17/2010 19:52",
 		"acceptDroppingMorph:event:" : "jcg 7/7/2000 11:08",
@@ -58,7 +59,7 @@
 		"hasUnacceptedEdits" : "di 4/20/1998 18:56",
 		"hasUnacceptedEdits:" : "sw 10/10/1999 23:06",
 		"implementorsOfIt" : "di 11/2/1998 16:02",
-		"initialize" : "nk 2/14/2004 18:19",
+		"initialize" : "SK 5/20/2014 16:46",
 		"inspectIt" : "nice 3/31/2011 21:47",
 		"installModelIn:" : "di 5/3/1998 12:45",
 		"isTextView" : "dtl 2/10/2010 17:28",

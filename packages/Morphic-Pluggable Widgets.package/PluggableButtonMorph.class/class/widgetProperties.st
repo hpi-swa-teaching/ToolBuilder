@@ -4,5 +4,7 @@ widgetProperties
 	
 	^ {{'PluggableButtonMorph '. #yourself} -> {
 		#label -> String.
+		#onColor -> Object.
+		#offColor -> Object.
 		#balloonText -> String.
 		#balloonColor -> Object}}

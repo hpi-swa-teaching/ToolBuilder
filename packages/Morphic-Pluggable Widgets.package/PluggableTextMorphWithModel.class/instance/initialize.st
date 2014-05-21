@@ -7,4 +7,4 @@ initialize
 		text: #getMyText
 		accept: #setMyText:
 		readSelection: nil
-		menu: nil
+		menu: nil.

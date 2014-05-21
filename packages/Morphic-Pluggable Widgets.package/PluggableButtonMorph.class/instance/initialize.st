@@ -11,7 +11,7 @@ initialize
 		 cellPositioning: #topCenter.
 	self borderStyle: BorderStyle thinGray.
 	model := nil.
-	label := nil.
+	label := 'Button'.
 	getStateSelector := nil.
 	actionSelector := nil.
 	getLabelSelector := nil.
