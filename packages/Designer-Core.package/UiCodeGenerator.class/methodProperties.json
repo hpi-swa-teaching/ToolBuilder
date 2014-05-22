@@ -10,6 +10,7 @@
 		"createAccessors" : "DH 5/20/2014 16:33",
 		"createUiClass" : "DH 5/20/2014 16:28",
 		"createUiPanelCode" : "DH 5/20/2014 16:33",
+		"generatePluggableSpecFor:" : "DH 5/22/2014 13:53",
 		"generateUiClassFor:" : "mt 5/18/2012 10:07:49.116",
 		"initialize" : "mt 6/27/2010 10:15:31.804",
 		"injectCustomUiCodeFor:into:" : "mt 10/28/2010 15:48:55.652",
