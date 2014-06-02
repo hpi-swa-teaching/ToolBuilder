@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"isWidgetClass" : "SK 6/2/2014 21:57",
+		"widgetCategory" : "SK 6/2/2014 21:57",
+		"widgetClassName" : "SK 6/2/2014 21:58",
+		"widgetProperties" : "SK 6/2/2014 21:58" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "cmm 5/27/2012 21:58",
 		"balloonTextForNode:" : "ar 2/12/2005 00:19",

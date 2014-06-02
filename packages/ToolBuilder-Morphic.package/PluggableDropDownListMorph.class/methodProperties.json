@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"isWidgetClass" : "SK 6/2/2014 21:54",
+		"widgetCategory" : "SK 6/2/2014 21:54",
+		"widgetClassName" : "SK 6/2/2014 21:55",
+		"widgetProperties" : "SK 6/2/2014 21:54" },
 	"instance" : {
 		"basicPanel" : "rww 9/11/2010 14:22",
 		"currentSelection" : "rww 9/11/2010 13:34",

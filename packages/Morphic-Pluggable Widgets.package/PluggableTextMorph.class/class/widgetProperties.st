@@ -2,6 +2,7 @@ properties
 widgetProperties
 	"Describe custom properties for this type of widget."
 	
-	^ {{'PluggableTextMorph '. #yourself} -> {
+	^ {{'Pluggable Text Morph '. #yourself} -> {
+		#color -> Object.
 		#balloonText -> String.
 		#balloonColor -> Object}}
