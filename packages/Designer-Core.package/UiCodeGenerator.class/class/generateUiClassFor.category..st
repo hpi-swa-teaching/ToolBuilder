@@ -1,6 +1,4 @@
 instance creation
-generateUiClassFor: aMorph category: aString
-
-	^ self new
-		category: aString;
-		generateUiClassFor: aMorph
+generateUiClassFor: t1 category: t2 
+	^ self new category: t2;
+		 generateUiClassFor: t1

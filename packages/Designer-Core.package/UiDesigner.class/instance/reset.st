@@ -1,4 +1,3 @@
 save/load
 reset
-
-	self resetContainer.
+	self resetContainer

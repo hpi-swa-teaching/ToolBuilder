@@ -1,11 +1,9 @@
 private - inst vars
 instVarsString
-
-	| stream |
-	stream := WriteStream on: ''.
+	| t1 |
+	t1 := WriteStream on: ''.
 	self namedInstVars
-		do: [:instVar | stream nextPutAll: (instVar at: #name)]
-		separatedBy: [stream nextPut: Character space].
-		
-	^ stream contents
-	
+		do: [:t2 | t1
+				nextPutAll: (t2 at: #name)]
+		separatedBy: [t1 nextPut: Character space].
+	^ t1 contents

@@ -1,6 +1,3 @@
 as yet unclassified
 close
-
-	self
-		delete;
-		closed.
+	self delete; closed

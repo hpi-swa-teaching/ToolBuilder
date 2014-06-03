@@ -1,5 +1,3 @@
 accessing
 openBtn
-	"nil"
-	
 	^ openBtn

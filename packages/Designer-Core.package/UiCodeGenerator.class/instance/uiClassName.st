@@ -1,4 +1,3 @@
 accessing
 uiClassName
-
-	^ (source uiClassName capitalized, #Ui) asSymbol
+	^ (source uiClassName capitalized , #Ui) asSymbol

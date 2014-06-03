@@ -1,12 +1,11 @@
 code generation
 createAccessors
-
-	| template |
-	template := '{1}
+	| t1 |
+	t1 := '{1}
 	"{2}"
 	
 	^ {1}'.
-	self namedInstVars do: [:instVar |
-		self uiClass compile: (template format: {
-			instVar at: #name.
-			instVar at: #description}) classified: 'accessing'].
+	self namedInstVars
+		do: [:t2 | self uiClass
+				compile: (t1 format: {t2 at: #name. t2 at: #description})
+				classified: 'accessing']

@@ -1,4 +1,3 @@
 accessing
-category: aString
-
-	category := aString.
+category: t1 
+	category := t1

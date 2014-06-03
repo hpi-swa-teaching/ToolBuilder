@@ -1,4 +1,3 @@
 signals
 closed
-
-	self emit.
+	self emit

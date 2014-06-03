@@ -1,4 +1,4 @@
 as yet unclassified
 designTemplates
-
-	^ UserInterface subclasses select: [:class | class isTemplate]
+	^ UserInterface subclasses
+		select: [:t1 | t1 isTemplate]

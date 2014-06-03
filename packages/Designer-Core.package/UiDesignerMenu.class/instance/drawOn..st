@@ -1,5 +1,4 @@
 drawing
-drawOn: aCanvas
-
-	super drawOn: aCanvas.
-	self drawShadowOn: aCanvas.
+drawOn: t1 
+	super drawOn: t1.
+	self drawShadowOn: t1

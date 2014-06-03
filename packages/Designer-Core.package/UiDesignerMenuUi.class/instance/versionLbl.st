@@ -1,5 +1,3 @@
 accessing
 versionLbl
-	"nil"
-	
 	^ versionLbl

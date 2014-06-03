@@ -1,4 +1,4 @@
 accessing
 category
-
-	^ category ifNil: ['Widgets-Custom']
+	^ category
+		ifNil: ['Widgets-Custom']

@@ -1,4 +1,3 @@
 signals
-recentDesignSelected: aDesignName
-
-	self emitAlways.
+recentDesignSelected: t1 
+	self emitAlways

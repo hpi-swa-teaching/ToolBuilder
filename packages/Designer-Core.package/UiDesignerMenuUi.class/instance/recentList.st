@@ -1,5 +1,3 @@
 accessing
 recentList
-	"nil"
-	
 	^ recentList

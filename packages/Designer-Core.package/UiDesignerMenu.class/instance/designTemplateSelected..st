@@ -1,4 +1,3 @@
 signals
-designTemplateSelected: aDesignTemplateName
-
-	self emitAlways.
+designTemplateSelected: t1 
+	self emitAlways

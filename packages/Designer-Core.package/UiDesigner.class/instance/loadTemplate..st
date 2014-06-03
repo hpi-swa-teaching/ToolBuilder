@@ -1,16 +1,12 @@
 save/load
-loadTemplate: aDesignClassOrSymbol
-
-	| ui class |
-	class := aDesignClassOrSymbol isSymbol
-		ifTrue: [Smalltalk at: aDesignClassOrSymbol]
-		ifFalse: [aDesignClassOrSymbol].
-			
-	ui := class new.
-	ui initializePanel.
-	ui panel
-		removeProperty: #uiClassName;
-		removeProperty: #objectName.
-	
-	container:= ui panel.
-	self initializeContainer.
+loadTemplate: t1 
+	| t2 t3 |
+	t3 := t1 isSymbol
+				ifTrue: [Smalltalk at: t1]
+				ifFalse: [t1].
+	t2 := t3 new.
+	t2 initializePanel.
+	t2 panel removeProperty: #uiClassName;
+		 removeProperty: #objectName.
+	container := t2 panel.
+	self initializeContainer

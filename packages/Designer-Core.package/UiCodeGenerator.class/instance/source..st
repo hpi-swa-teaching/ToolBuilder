@@ -1,4 +1,3 @@
 accessing
-source: aMorph
-
-	source := aMorph
+source: t1 
+	source := t1

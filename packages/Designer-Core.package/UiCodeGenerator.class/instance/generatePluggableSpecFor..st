@@ -1,2 +1,3 @@
 as yet unclassified
-generatePluggableSpecFor: aContainer
+generatePluggableSpecFor: t1 
+	^ self

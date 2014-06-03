@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"centralScroller" : "DH 5/17/2014 17:43",
-		"filterEdit" : "DH 5/17/2014 17:43",
-		"initializePanel" : "DH 5/17/2014 17:43",
-		"newBtn" : "DH 5/17/2014 17:43",
-		"openBtn" : "DH 5/17/2014 17:43",
-		"packageNameEdit" : "DH 5/17/2014 17:43",
-		"pluggableSaveButton" : "DH 5/17/2014 17:43",
-		"prop" : "DH 5/17/2014 17:43",
-		"propertyScroller" : "DH 5/17/2014 17:43",
-		"saveBtn" : "DH 5/17/2014 17:43",
-		"widgetList" : "DH 5/17/2014 17:43" } }
+		"centralScroller" : "",
+		"filterEdit" : "",
+		"initializePanel" : "",
+		"newBtn" : "",
+		"openBtn" : "",
+		"packageNameEdit" : "",
+		"pluggableSaveButton" : "",
+		"prop" : "",
+		"propertyScroller" : "",
+		"saveBtn" : "",
+		"widgetList" : "" } }

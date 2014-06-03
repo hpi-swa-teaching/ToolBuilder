@@ -1,4 +1,4 @@
 updating
 expandWidgetCategories
-
-	self ui widgetList expandTopLevelRows: (2 to: self ui widgetList model childCount).
+	self ui widgetList
+		expandTopLevelRows: (2 to: self ui widgetList model childCount)

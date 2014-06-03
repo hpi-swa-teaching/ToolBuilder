@@ -1,44 +1,33 @@
 private - reading
-injectUiCodeFor: aMorph into: stream
-
-	| creationTemplate submorphTemplate nameTemplate descrTemplate |
-	creationTemplate := '{1} := {2} new.'.
-	submorphTemplate := '{1} addChild: {2}.'.
-	nameTemplate := '{1} setProperty: #objectName toValue: ''{1}''.'.
-	descrTemplate := '{1} setProperty: #objectDescription toValue: ''{2}''.'.
-
-	"Create aMorph."
-	stream crtab; nextPutAll: (creationTemplate format: {
-		aMorph valueOfProperty: #objectNameTemp.
-		aMorph class name}).
-	
-	"Initialize aMorph."
-	aMorph hasTableLayout
-		ifTrue: [stream crtab; nextPutAll: ('{1} changeTableLayout.' format: {
-			aMorph valueOfProperty: #objectNameTemp})].
-	aMorph hasProportionalLayout
-		ifTrue: [stream crtab; nextPutAll: ('{1} changeProportionalLayout.' format: {
-			aMorph valueOfProperty: #objectNameTemp})].
-	
-	#(extent position hResizing vResizing minWidth minHeight cellInset cellPositioning cellSpacing layoutInset listCentering listDirection listSpacing maxCellSize minCellSize wrapCentering wrapDirection frameFractions frameOffsets) do: [:property |
-		self injectUiCodeFor: aMorph property: property into: stream].
-	
-	self injectCustomUiCodeFor: aMorph into: stream.
-	
-	aMorph objectName ifNotEmpty: [
-		stream crtab; nextPutAll: (nameTemplate format: {
-			aMorph objectName.
-			aMorph objectName.})].
-	aMorph objectDescription ifNotEmpty: [
-		stream crtab; nextPutAll: (descrTemplate format: {
-			aMorph valueOfProperty: #objectNameTemp.
-			aMorph objectDescription.})].
-	
-	"Let my submorphs initialize."
-	(aMorph isKindOf: UiContainer)
-		ifTrue: [
-			aMorph children do: [:m |
-				self injectUiCodeFor: m into: stream.
-				stream crtab; nextPutAll: (submorphTemplate format: {
-					aMorph valueOfProperty: #objectNameTemp.
-					m valueOfProperty: #objectNameTemp.})]].
+injectUiCodeFor: t1 into: t2 
+	| t3 t4 t5 t6 |
+	t3 := '{1} := {2} new.'.
+	t4 := '{1} addChild: {2}.'.
+	t5 := '{1} setProperty: #objectName toValue: ''{1}''.'.
+	t6 := '{1} setProperty: #objectDescription toValue: ''{2}''.'.
+	t2 crtab;
+		nextPutAll: (t3 format: {t1 valueOfProperty: #objectNameTemp. t1 class name}).
+	t1 hasTableLayout
+		ifTrue: [t2 crtab;
+				nextPutAll: ('{1} changeTableLayout.' format: {t1 valueOfProperty: #objectNameTemp})].
+	t1 hasProportionalLayout
+		ifTrue: [t2 crtab;
+				nextPutAll: ('{1} changeProportionalLayout.' format: {t1 valueOfProperty: #objectNameTemp})].
+	#(#extent #position #hResizing #vResizing #minWidth #minHeight #cellInset #cellPositioning #cellSpacing #layoutInset #listCentering #listDirection #listSpacing #maxCellSize #minCellSize #wrapCentering #wrapDirection #frameFractions #frameOffsets )
+		do: [:t7 | self
+				injectUiCodeFor: t1
+				property: t7
+				into: t2].
+	self injectCustomUiCodeFor: t1 into: t2.
+	t1 objectName
+		ifNotEmpty: [t2 crtab;
+				nextPutAll: (t5 format: {t1 objectName. t1 objectName})].
+	t1 objectDescription
+		ifNotEmpty: [t2 crtab;
+				nextPutAll: (t6 format: {t1 valueOfProperty: #objectNameTemp. t1 objectDescription})].
+	(t1 isKindOf: UiContainer)
+		ifTrue: [t1 children
+				do: [:t7 | 
+					self injectUiCodeFor: t7 into: t2.
+					t2 crtab;
+						nextPutAll: (t4 format: {t1 valueOfProperty: #objectNameTemp. t7 valueOfProperty: #objectNameTemp})]]

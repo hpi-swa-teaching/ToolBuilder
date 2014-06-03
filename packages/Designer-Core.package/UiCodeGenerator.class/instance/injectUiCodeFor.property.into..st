@@ -1,13 +1,9 @@
 private - reading
-injectUiCodeFor: aMorph property: aProperty into: stream
-
-	| propertyTemplate value |
-	propertyTemplate := '{1} {2}: ({3}{4}).'.
-
-	value := aMorph perform: aProperty.
-
-	stream crtab; nextPutAll: (propertyTemplate format: {
-		aMorph valueOfProperty: #objectNameTemp.
-		aProperty.
-		value isSymbol ifTrue: ['#'] ifFalse: [''].
-		value}).
+injectUiCodeFor: t1 property: t2 into: t3 
+	| t4 t5 |
+	t4 := '{1} {2}: ({3}{4}).'.
+	t5 := t1 perform: t2.
+	t3 crtab;
+		nextPutAll: (t4 format: {t1 valueOfProperty: #objectNameTemp. t2. t5 isSymbol
+					ifTrue: ['#']
+					ifFalse: ['']. t5})

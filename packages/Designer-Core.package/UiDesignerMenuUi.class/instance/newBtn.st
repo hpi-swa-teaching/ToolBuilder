@@ -1,5 +1,3 @@
 accessing
 newBtn
-	"nil"
-	
 	^ newBtn

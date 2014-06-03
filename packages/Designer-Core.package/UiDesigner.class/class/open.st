@@ -1,4 +1,3 @@
 open
 open
-
-	self new openMenu.
+	self new openMenu

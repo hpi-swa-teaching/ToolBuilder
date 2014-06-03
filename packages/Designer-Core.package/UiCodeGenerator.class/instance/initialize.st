@@ -1,5 +1,4 @@
 initialization
 initialize
-
 	super initialize.
-	defaultNameCount := 0.
+	defaultNameCount := 0
