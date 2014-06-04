@@ -19,13 +19,13 @@ createBuildWithFor: t1
 							& (t8 asString ~= 'frame:') ])
 						includes: (instVar, $:)]).
 	t2 nextPutAll: (t6 format: {t3. 'model'. 'self'}); crtab.
-	t5
+	"t5
 		do: [:t8 | t2
 				nextPutAll: (t6 format: {t3. t8. '#', t8 asSymbol, t3 asString capitalized});
 				 crtab.
 				self uiClass 
 					compile: (t8 asSymbol, t3 asString capitalized) 
-					classified: (t3 asString, 'Methods')].
+					classified: (t3 asString, 'Methods')]."
 	t2
 		nextPutAll: (t7 format: {t3}).
 	self uiClass compile: t2 contents classified: 'toolbuilder'
