@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"isWidgetClass" : "SK 6/4/2014 17:18",
+		"widgetCategory" : "SK 6/4/2014 17:18",
+		"widgetClassName" : "SK 6/4/2014 17:18",
+		"widgetProperties" : "SK 6/4/2014 17:17" },
 	"instance" : {
 		"canBeEncroached" : "cmm 8/25/2013 13:09",
 		"children" : "cmm 8/22/2013 21:50",

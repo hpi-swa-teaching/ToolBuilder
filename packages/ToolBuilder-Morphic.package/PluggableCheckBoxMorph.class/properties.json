@@ -9,7 +9,8 @@
 		"model",
 		"actionSelector",
 		"valueSelector",
-		"label" ],
+		"label",
+		"value" ],
 	"name" : "PluggableCheckBoxMorph",
 	"pools" : [
 		 ],

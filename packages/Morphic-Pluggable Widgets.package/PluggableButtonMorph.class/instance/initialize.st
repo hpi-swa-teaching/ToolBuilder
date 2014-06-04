@@ -4,14 +4,14 @@ initialize
 	super initialize.
 	""
 	self listDirection: #topToBottom.
-	self hResizing: #shrinkWrap.
+	self hResizing: #spaceFill.
 	"<--so naked buttons work right"
-	self vResizing: #shrinkWrap.
+	self vResizing: #spaceFill.
 	self wrapCentering: #center;
 		 cellPositioning: #topCenter.
 	self borderStyle: BorderStyle thinGray.
 	model := nil.
-	label := 'Button'.
+	self label: 'Button'.
 	getStateSelector := nil.
 	actionSelector := nil.
 	getLabelSelector := nil.
@@ -26,4 +26,4 @@ initialize
 	allButtons := nil.
 	argumentsProvider := nil.
 	argumentsSelector := nil.
-	self extent: 20 @ 15
+	self extent: 45 @ 20
