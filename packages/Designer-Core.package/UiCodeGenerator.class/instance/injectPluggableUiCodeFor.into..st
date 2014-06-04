@@ -6,7 +6,7 @@ injectPluggableUiCodeFor: t1 into: t2
 		do: [:t4 | 
 			t2
 				nextPutAll: (t3 format: {self rectFor: t4. t4 objectName asString capitalized});
-				 cr.
+				 crtab.
 			self createBuildWithFor: t4].
 	t2 nextPutAll: '}.
 	^builder build: windowSpec'

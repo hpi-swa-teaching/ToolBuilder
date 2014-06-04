@@ -11,13 +11,21 @@ createBuildWithFor: t1
 	| ' , t3 , ' |
 	' , t3 , ' := ' , t4 , ' new.
 	'.
-	t5 := (Smalltalk at: t4 asSymbol) allInstVarNames
-				select: [:t8 | (t1 class allMethodsInCategory: 'accessing')
-						includes: t8 asSymbol].
+	t5 := (((Smalltalk at: t4 asSymbol) allInstVarNames)
+			select: [ :instVar |
+		(((Smalltalk at: t4 asSymbol) allMethodsInCategory: 'accessing')
+				select: [:t8 | (t8 asString last = $:) 
+							& (t8 asString ~= 'model:') 
+							& (t8 asString ~= 'frame:') ])
+						includes: (instVar, $:)]).
+	t2 nextPutAll: (t6 format: {t3. 'model'. 'self'}); crtab.
 	t5
 		do: [:t8 | t2
-				nextPutAll: (t6 format: {t3. t8. t1 perform: t8 asSymbol});
-				 crtab].
+				nextPutAll: (t6 format: {t3. t8. '#', t8 asSymbol, t3 asString capitalized});
+				 crtab.
+				self uiClass 
+					compile: (t8 asSymbol, t3 asString capitalized) 
+					classified: (t3 asString, 'Methods')].
 	t2
 		nextPutAll: (t7 format: {t3}).
 	self uiClass compile: t2 contents classified: 'toolbuilder'
