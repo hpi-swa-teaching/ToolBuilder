@@ -1,0 +1,3 @@
+*Designer
+pluggableDefault
+	^PluggableFactory pluggableTextMorph

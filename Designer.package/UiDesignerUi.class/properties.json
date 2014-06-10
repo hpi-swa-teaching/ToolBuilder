@@ -1,0 +1,25 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"newBtn",
+		"openBtn",
+		"saveBtn",
+		"pluggableNewButton",
+		"pluggableOpenButton",
+		"pluggableSaveButton",
+		"packageNameEdit",
+		"prop",
+		"propertyScroller",
+		"widgetList",
+		"filterEdit",
+		"centralScroller" ],
+	"name" : "UiDesignerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

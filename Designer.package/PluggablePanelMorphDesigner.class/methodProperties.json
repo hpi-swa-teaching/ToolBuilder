@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "SK 6/10/2014 02:21",
+		"changeFocusTo:" : "SK 6/10/2014 02:12",
+		"changeSelectionTo:" : "SK 6/10/2014 02:13",
+		"click:" : "SK 6/10/2014 03:12",
+		"editMode" : "SK 6/10/2014 02:51",
+		"editMode:" : "SK 6/10/2014 02:06",
+		"focusChanged:" : "SK 6/10/2014 02:15",
+		"handlesMouseDown:" : "SK 6/10/2014 02:50",
+		"keyboardFocusChange:" : "SK 6/10/2014 03:01",
+		"mouseDown:" : "SK 6/10/2014 02:51",
+		"mouseDownPriority" : "SK 6/10/2014 03:12",
+		"selectionChanged:" : "SK 6/10/2014 02:14",
+		"startDrag:" : "SK 6/10/2014 03:01" } }

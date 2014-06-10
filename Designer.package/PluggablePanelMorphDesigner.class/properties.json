@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editMode",
+		"focusRectangle" ],
+	"name" : "PluggablePanelMorphDesigner",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelMorph",
+	"type" : "normal" }
