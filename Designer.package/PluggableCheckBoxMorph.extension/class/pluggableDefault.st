@@ -1,3 +1,4 @@
 *Designer
 pluggableDefault
+
 	^PluggableFactory pluggableCheckBoxMorph

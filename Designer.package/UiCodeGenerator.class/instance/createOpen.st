@@ -1,7 +1,7 @@
 code generation - pluggable
 createOpen
-	self uiClass compile: 'open
+	self uiClass class compile: 'open
 	| window |
 	
-	window := (ToolBuilder default) build: self.
+	window := (ToolBuilder default) build: self new.
 	window openInWorld' classified: 'toolbuilder'.

@@ -1,0 +1,4 @@
+properties
+widgetCategory
+	
+	^ 'Pluggable Morphs'

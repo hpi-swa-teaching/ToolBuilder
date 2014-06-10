@@ -1,11 +1,10 @@
 code generation - pluggable
-createBuildWithFor: t1 
+createBuildWithFor: aMorph 
 	| t2 t3 t4 t5 t6 t7 |
 	t6 := '{1} {2}: {3}.'.
 	t7 := '^{1}'.
-	t4 := (t1 class asString allButLast: 5)
-				, 'Spec'.
-	t3 := t1 objectName.
+	t4 := self getSpecName: aMorph.
+	t3 := aMorph objectName.
 	t2 := WriteStream on: ''.
 	t2 nextPutAll: 'build' , t3 asString capitalized , 'With: builder
 	| ' , t3 , ' |
@@ -29,3 +28,4 @@ createBuildWithFor: t1
 	t2
 		nextPutAll: (t7 format: {t3}).
 	self uiClass compile: t2 contents classified: 'toolbuilder'
+	

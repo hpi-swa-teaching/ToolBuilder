@@ -3,7 +3,6 @@ acceptDroppingMorph: aMorph event: evt
 
 	| result |
 	(aMorph isKindOf: TransferMorph)
-		"Hard-wired with UiWidgetModel. Baaaaad."
 		ifTrue: [ (aMorph passenger first at: #class ifAbsent: []) ifNotNil: [:widgetClass |
 			| widget |
 			widget := widgetClass pluggableDefault position: evt position.

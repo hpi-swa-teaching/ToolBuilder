@@ -1,8 +1,12 @@
 {
 	"class" : {
-		 },
+		"isWidgetClass" : "SK 6/10/2014 11:20",
+		"pluggableDefault" : "SK 6/10/2014 11:13",
+		"widgetCategory" : "SK 6/10/2014 11:13",
+		"widgetClassName" : "SK 6/10/2014 11:13",
+		"widgetProperties" : "SK 6/10/2014 11:14" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "SK 6/10/2014 02:21",
+		"acceptDroppingMorph:event:" : "SK 6/10/2014 11:29",
 		"changeFocusTo:" : "SK 6/10/2014 02:12",
 		"changeSelectionTo:" : "SK 6/10/2014 02:13",
 		"click:" : "SK 6/10/2014 03:12",
