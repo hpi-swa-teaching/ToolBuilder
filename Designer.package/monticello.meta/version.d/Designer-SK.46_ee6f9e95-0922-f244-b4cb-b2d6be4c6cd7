@@ -1,0 +1,1 @@
+(name 'Designer-SK.46'message 'fixed connection between UiContainer and PropertyTable, caused by an earlier commit'id 'ee6f9e95-0922-f244-b4cb-b2d6be4c6cd7'date '10 June 2014'time '3:19:41.085 am'author 'SK'ancestors ((id '0616c7e6-ba15-6a4e-87fa-27db678ec217'))stepChildren ())
