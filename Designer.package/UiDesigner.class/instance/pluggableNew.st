@@ -8,7 +8,9 @@ pluggableNew
 		editMode: true;
 		layoutPolicy: nil;
 		dragEnabled: false.
-		
+	
+	container connectSignal: #selectionChanged: to: propertyTable selector: #updateProperties: pattern: nil queue: nil blocking: false.
+	
 	self ui centralScroller widget: container.
 	
 	propertyTable updateProperties: container.
