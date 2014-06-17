@@ -9,4 +9,5 @@ injectPluggableUiCodeFor: aMorph into: stream
 				 crtab.
 			self createBuildWithFor: submorphTemplate].
 	stream nextPutAll: '}.
+	self customCode.
 	^builder build: windowSpec'

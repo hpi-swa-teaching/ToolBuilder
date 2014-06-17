@@ -1,9 +1,15 @@
 save/load - pluggable
 pluggableOpen
-	| result |
+	| result pluggableDesignes |
+	
+	pluggableDesignes := OrderedCollection new.
+	Object allSubclasses 
+		do: [:subclass| 
+			(subclass respondsTo: #isPluggableDesign) 
+				ifTrue: [pluggableDesignes add: subclass].].
 	
 	result := ListChooser
-		chooseItemFrom: CodeHolder subclasses
+		chooseItemFrom: pluggableDesignes
 		title: 'Select UI class'.
 	
 	result ifNotNil: [:designClass |

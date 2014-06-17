@@ -1,4 +1,8 @@
 properties
 pluggableDefault
 
-	^PluggableFactory pluggablePanelMorph
+	| pluggablePanelMorph |
+	
+	pluggablePanelMorph := PluggablePanelMorphDesigner new.
+	pluggablePanelMorph color: (Color transparent).
+	^pluggablePanelMorph

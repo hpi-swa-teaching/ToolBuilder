@@ -1,0 +1,4 @@
+*Designer
+widgetCategory
+	
+	^ 'Pluggable Morphs'
