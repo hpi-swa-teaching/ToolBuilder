@@ -4,4 +4,4 @@ createOpen
 	| window |
 	
 	window := (ToolBuilder default) build: self new.
-	window openInWorld' classified: 'toolbuilder'.
+	window openInHand' classified: 'toolbuilder'.

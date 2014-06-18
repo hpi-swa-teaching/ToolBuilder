@@ -3,11 +3,13 @@ injectPluggableUiCodeFor: aMorph into: stream
 	| creationTemplate |
 	creationTemplate := '({1}) -> [self build{2}With: builder].'.
 	source submorphs
-		do: [:submorphTemplate | 
+		do: [:submorph | 
 			stream
-				nextPutAll: (creationTemplate format: {self rectFor: submorphTemplate. submorphTemplate objectName asString capitalized});
+				nextPutAll: (creationTemplate format: 
+					{self rectFor: submorph. 
+					submorph objectName asString capitalized});
 				 crtab.
-			self createBuildWithFor: submorphTemplate].
+			self createBuildWithFor: submorph].
 	stream nextPutAll: '}.
 	self customCode.
 	^builder build: windowSpec'

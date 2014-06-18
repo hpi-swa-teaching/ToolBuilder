@@ -1,2 +1,3 @@
 accessing
 state
+	^state

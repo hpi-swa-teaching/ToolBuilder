@@ -5,7 +5,7 @@ pluggableOpen
 	pluggableDesignes := OrderedCollection new.
 	Object allSubclasses 
 		do: [:subclass| 
-			(subclass respondsTo: #isPluggableDesign) 
+			(subclass respondsTo: #isPluggableUi) 
 				ifTrue: [pluggableDesignes add: subclass].].
 	
 	result := ListChooser
