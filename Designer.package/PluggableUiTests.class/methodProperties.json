@@ -4,4 +4,6 @@
 	"instance" : {
 		"testDummyModelOfPluggableButtonMorph" : "SK 6/24/2014 09:55",
 		"testDummyModelOfPluggableCheckBoxMorph" : "SK 6/24/2014 09:47",
-		"testDummyModelOfPluggableTextMorph" : "SK 6/24/2014 09:49" } }
+		"testDummyModelOfPluggableListMorph" : "dh 6/24/2014 15:43",
+		"testDummyModelOfPluggableTextMorph" : "SK 6/24/2014 09:49",
+		"testPluggableNew" : "dh 6/24/2014 10:41" } }
