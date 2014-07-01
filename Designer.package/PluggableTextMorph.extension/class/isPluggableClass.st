@@ -1,4 +1,4 @@
 *Designer
-isWidgetClass
+isPluggableClass
 
 	self  = PluggableTextMorph ifTrue: [^ true] ifFalse: [^ false]

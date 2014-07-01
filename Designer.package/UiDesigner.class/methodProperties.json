@@ -8,8 +8,9 @@
 		"versionString" : "mt 8/21/2012 11:09:29.519" },
 	"instance" : {
 		"addRecentDesign:" : "mt 10/30/2010 12:49:58.875",
+		"addSubmorphs:to:" : "SK 7/1/2014 14:51",
 		"container" : "dh 6/24/2014 10:21",
-		"convertToPluggableDesigner:" : "mpb 6/18/2014 11:28",
+		"convertToPluggableDesigner:" : "SK 7/1/2014 13:34",
 		"expandWidgetCategories" : "mt 2/3/2012 10:36:12.33",
 		"gridForm" : "mt 10/28/2010 16:16:14.109",
 		"initialize" : "SK 6/9/2014 23:17",

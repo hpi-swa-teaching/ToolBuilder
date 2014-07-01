@@ -4,6 +4,7 @@
 		"generateUiClassFor:" : "mt 6/30/2010 11:58:41.695",
 		"generateUiClassFor:category:" : "mt 6/30/2010 11:58:37.693" },
 	"instance" : {
+		"addSubmorphs:to:with:" : "SK 7/1/2014 14:40",
 		"category" : "mt 6/30/2010 11:49:22.277",
 		"category:" : "mt 6/30/2010 11:49:31.444",
 		"collectInstVars" : "mt 6/27/2010 12:49:00.982",
@@ -24,7 +25,7 @@
 		"initialize" : "mt 6/27/2010 10:15:31.804",
 		"injectCustomUiCodeFor:into:" : "mt 10/28/2010 15:48:55.652",
 		"injectInstVarsForMorph:into:" : "mt 11/6/2012 16:17:19.339",
-		"injectPluggableUiCodeFor:into:" : "mpb 6/18/2014 18:18",
+		"injectPluggableUiCodeFor:into:" : "SK 7/1/2014 13:42",
 		"injectUiCodeFor:into:" : "mt 11/6/2012 16:20:30.122",
 		"injectUiCodeFor:property:into:" : "mt 10/22/2010 11:57:11.003",
 		"instVarsString" : "mt 5/18/2012 10:19:30.359",

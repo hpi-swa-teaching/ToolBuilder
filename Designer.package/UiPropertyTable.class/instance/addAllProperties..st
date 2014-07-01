@@ -71,7 +71,9 @@ addAllProperties: aMorph
 	self addPropertyLabel: 'ProportionalLayout' editor: editor.
 	self connect: editor signal: #toggled: toSelector: #changeProportionalLayout:enable: pattern: {#=. aMorph. 1}.
 	
-	aMorph hasTableLayout ifTrue: [self addTableLayoutProperties: aMorph].
-	aMorph hasProportionalLayout ifTrue: [self addProportionalLayoutProperties: aMorph].
+	aMorph class isPluggableClass
+		ifFalse: [
+			aMorph hasTableLayout ifTrue: [self addTableLayoutProperties: aMorph].
+			aMorph hasProportionalLayout ifTrue: [self addProportionalLayoutProperties: aMorph]].
 	
 	self addCustomProperties: aMorph.

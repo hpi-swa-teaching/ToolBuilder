@@ -1,4 +1,4 @@
 *Designer
-isWidgetClass
+isPluggableClass
 
 	self  = PluggableCheckBoxMorph ifTrue: [^ true] ifFalse: [^ false]

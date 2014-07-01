@@ -1,4 +1,4 @@
 properties
-isWidgetClass
+isPluggableClass
 
 	self  = PluggablePanelMorphDesigner ifTrue: [^ true] ifFalse: [^ false]

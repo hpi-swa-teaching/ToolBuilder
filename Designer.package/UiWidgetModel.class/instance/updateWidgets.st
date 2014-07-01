@@ -10,7 +10,7 @@ updateWidgets
 				at: #category put: c widgetCategory;
 				yourself)].
 		
-		(c isWidgetClass or: [c widgetCategory = Morph widgetCategory])
+		(c isWidgetClass or: [c isPluggableClass] or: [c widgetCategory = Morph widgetCategory])
 			ifTrue: [node addChild: (
 				UiPropertyItemNode new
 					at: #class put: c;

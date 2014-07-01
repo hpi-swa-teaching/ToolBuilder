@@ -1,4 +1,4 @@
 *Designer
-isWidgetClass
+isPluggableClass
 
 	self  = PluggableListMorph ifTrue: [^ true] ifFalse: [^ false]

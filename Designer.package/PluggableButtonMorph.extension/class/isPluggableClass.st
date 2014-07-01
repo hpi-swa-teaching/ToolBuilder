@@ -1,4 +1,4 @@
 *Designer
-isWidgetClass
+isPluggableClass
 
 	self  = PluggableButtonMorph ifTrue: [^ true] ifFalse: [^ false]
