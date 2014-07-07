@@ -11,33 +11,26 @@ createBuildWithFor: aMorph
 	' , name , ' := ' , specClass , ' new.
 	'.
 	stream nextPutAll: (propertyTemplate format: {name. 'model'. 'self'}); crtab.
+	
+	instVars := aMorph model class instVarNames copy.
+	instVars do: [ :instVar | self uiClass addInstVarName: name , instVar asString capitalized].
+			
 	(aMorph model class methodsInCategory: 'accessing') do:
-		[:selector | stream nextPutAll: (propertyTemplate format: {
+		[:selector | | actionName actionSelector newMethod | 
+			(selector findString: ':') > 0 
+				ifTrue: [actionName := selector allButLast.
+					actionSelector := name , actionName asString capitalized, ':'.] 
+				ifFalse: [actionName := selector.
+					actionSelector := name , actionName asString capitalized.].
+			stream nextPutAll: (propertyTemplate format: {
 			name.
-			selector.
-			'#', selector, name asString capitalized}); crtab.
+			actionName.
+			'#', actionSelector}); crtab.
+			newMethod := name , (aMorph model class decompile: selector) asString capitalized.
+			instVars do: [ :instVar | newMethod := newMethod asString copyWithRegex: instVar matchesReplacedWith: name , instVar capitalized].
 			self uiClass 
-					compile: (selector, name asString capitalized) 
+					compile: newMethod
 					classified: (name asString, 'Methods')].
-	"instVars := (((Smalltalk at: specClass asSymbol) allInstVarNames)
-			select: [ :instVar |
-		(((Smalltalk at: specClass asSymbol) allMethodsInCategory: 'accessing')
-				select: [:t8 | (t8 asString last = $:) 
-							& (t8 asString ~= 'model:') 
-							& (t8 asString ~= 'frame:') ])
-						includes: (instVar, $:)]).
-	stream nextPutAll: (propertyTemplate format: {name. 'model'. 'self'}); crtab."
-	"instVars
-		do: [prop | stream
-				nextPutAll: (propertyTemplate format: 
-					{name. 
-					prop. 
-					'#', prop asSymbol, name asString capitalized});
-				 	crtab.
-				self uiClass 
-					compile: (prop asSymbol, name asString capitalized) 
-					classified: (name asString, 'Methods')]."
 	stream
 		nextPutAll: (returnTemplate format: {name}).
 	self uiClass compile: stream contents classified: 'toolbuilder'
-	

@@ -1,0 +1,4 @@
+*designer
+isPluggableClass
+	
+	^ false.
