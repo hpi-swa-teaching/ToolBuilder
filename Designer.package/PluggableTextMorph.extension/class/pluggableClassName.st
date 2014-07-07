@@ -1,4 +1,4 @@
 *Designer
-widgetClassName
+pluggableClassName
 
 	^ 'Pluggable Text Morph'

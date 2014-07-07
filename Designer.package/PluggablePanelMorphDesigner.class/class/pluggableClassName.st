@@ -1,4 +1,4 @@
 properties
-widgetClassName
+pluggableClassName
 
 	^ 'Pluggable Panel Morph'

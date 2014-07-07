@@ -1,0 +1,4 @@
+*designer
+pluggableCategory
+	
+	^ 'Classic Morphs'

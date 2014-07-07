@@ -1,0 +1,4 @@
+*designer
+pluggableClassName
+
+	^ self name

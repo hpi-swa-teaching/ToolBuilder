@@ -1,5 +1,8 @@
 save/load - pluggable
 pluggableNew
+
+	self selectPluggableModel.
+
 	container := PluggablePanelMorphDesigner new
 		extent: 500@300.
 

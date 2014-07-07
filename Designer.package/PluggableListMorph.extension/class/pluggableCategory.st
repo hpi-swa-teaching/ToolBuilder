@@ -1,4 +1,4 @@
 *Designer
-widgetCategory
+pluggableCategory
 	
 	^ 'Pluggable Morphs'

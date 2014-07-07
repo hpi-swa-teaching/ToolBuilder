@@ -2,6 +2,8 @@ save/load - pluggable
 pluggableOpen
 	| result pluggableDesignes |
 	
+	self selectPluggableModel.
+	
 	pluggableDesignes := OrderedCollection new.
 	Object allSubclasses 
 		do: [:subclass| 

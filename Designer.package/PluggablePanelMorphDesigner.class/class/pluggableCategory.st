@@ -1,4 +1,4 @@
 properties
-widgetCategory
+pluggableCategory
 	
 	^ 'Pluggable Morphs'
