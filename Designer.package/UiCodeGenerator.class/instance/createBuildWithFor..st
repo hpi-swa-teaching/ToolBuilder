@@ -1,6 +1,7 @@
 code generation - pluggable
 createBuildWithFor: aMorph 
 	| stream name specClass propertyTemplate returnTemplate |
+	
 	propertyTemplate := '{1} {2}: {3}.'.
 	returnTemplate := '^{1}'.
 	specClass := self getSpecName: aMorph.
@@ -26,8 +27,10 @@ createBuildWithFor: aMorph
 			name.
 			actionName.
 			'#', actionSelector}); crtab.
-			newMethod := name , (aMorph model class decompile: selector) asString capitalized.
+			newMethod := aMorph model class decompile: selector.
+			newMethod := newMethod asString allButFirst: selector size.
 			instVars do: [ :instVar | newMethod := newMethod asString copyWithRegex: instVar matchesReplacedWith: name , instVar capitalized].
+			newMethod := name , selector capitalized , newMethod asString capitalized.
 			self uiClass 
 					compile: newMethod
 					classified: (name asString, 'Methods')].
