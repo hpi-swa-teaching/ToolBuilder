@@ -1,4 +1,4 @@
-*Designer
+*designer
 pluggableDefault
 
 	| pluggableCheckBoxMorph pluggableCheckBoxSpec |
@@ -8,6 +8,7 @@ pluggableDefault
 		state: #state;
 		model: PluggableCheckBoxModel new.
 	pluggableCheckBoxMorph := ToolBuilder build: pluggableCheckBoxSpec. 
-	pluggableCheckBoxMorph color: Color white.
-	pluggableCheckBoxMorph extent: 72@16.
-	^pluggableCheckBoxMorph
+	pluggableCheckBoxMorph 
+		color: Color white;
+		extent: 72@16.
+	^ pluggableCheckBoxMorph

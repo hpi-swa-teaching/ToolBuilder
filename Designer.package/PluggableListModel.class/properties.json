@@ -11,5 +11,5 @@
 	"name" : "PluggableListModel",
 	"pools" : [
 		 ],
-	"super" : "PluggableModel",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,13 +1,14 @@
-*Designer
+*designer
 pluggableDefault
 
 	| pluggableListMorph pluggableListSpec |
 	pluggableListSpec := PluggableListSpec new.
-	pluggableListSpec list: #list.
-	pluggableListSpec getIndex: #getIndex.
-	pluggableListSpec setIndex: #setIndex:.
-	pluggableListSpec getSelected: #getSelected.
-	pluggableListSpec setSelected: #setSelected:.
-	pluggableListSpec model: PluggableListModel new. 
-	pluggableListMorph := (ToolBuilder default) build: pluggableListSpec.
+	pluggableListSpec 
+		model: PluggableListModel new;
+		list: #list;
+		getIndex: #getIndex;
+		setIndex: #setIndex:;
+		getSelected: #getSelected;
+		setSelected: #setSelected:. 
+	pluggableListMorph := ToolBuilder build: pluggableListSpec.
 	^pluggableListMorph.

@@ -1,11 +1,11 @@
-*Designer
+*designer
 pluggableDefault
 	| pluggableButtonSpec pluggableButtonMorph |
 	
 	pluggableButtonSpec := PluggableButtonSpec new.
-	pluggableButtonSpec label: #label.
-	pluggableButtonSpec action: #action.
-	pluggableButtonSpec model: (PluggableButtonModel new).
-	pluggableButtonMorph := (ToolBuilder default) build: pluggableButtonSpec.
-	pluggableButtonMorph setProperty: #objectName toValue: 'button'.
-	^pluggableButtonMorph
+	pluggableButtonSpec
+		model: PluggableButtonModel new; 
+		label: #label;
+		action: #action.
+	pluggableButtonMorph := ToolBuilder build: pluggableButtonSpec.
+	^ pluggableButtonMorph

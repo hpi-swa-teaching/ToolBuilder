@@ -1,4 +1,4 @@
-*Designer
+*designer
 isPluggableClass
 
 	^ self  = PluggableCheckBoxMorph

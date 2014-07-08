@@ -10,5 +10,5 @@
 	"name" : "PluggableButtonModel",
 	"pools" : [
 		 ],
-	"super" : "PluggableModel",
+	"super" : "Object",
 	"type" : "normal" }

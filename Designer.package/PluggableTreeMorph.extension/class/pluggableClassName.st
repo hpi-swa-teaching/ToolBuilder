@@ -1,4 +1,4 @@
 *designer
 pluggableClassName
 
-	^ 'Pluggable CheckBox Morph'
+	^ 'Pluggable Tree Morph'

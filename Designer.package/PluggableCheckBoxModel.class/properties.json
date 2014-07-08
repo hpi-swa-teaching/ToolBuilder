@@ -10,5 +10,5 @@
 	"name" : "PluggableCheckBoxModel",
 	"pools" : [
 		 ],
-	"super" : "PluggableModel",
+	"super" : "Object",
 	"type" : "normal" }

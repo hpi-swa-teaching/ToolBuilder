@@ -1,4 +1,4 @@
-*Designer
+*designer
 pluggableClassName
 
 	^ 'Pluggable List Morph'

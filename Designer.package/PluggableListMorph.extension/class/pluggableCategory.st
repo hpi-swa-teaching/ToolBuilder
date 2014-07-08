@@ -1,4 +1,4 @@
-*Designer
+*designer
 pluggableCategory
 	
 	^ 'Pluggable Morphs'

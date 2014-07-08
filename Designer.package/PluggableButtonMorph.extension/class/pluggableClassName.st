@@ -1,4 +1,4 @@
-*Designer
+*designer
 pluggableClassName
 
 	^ 'Pluggable Button Morph'
