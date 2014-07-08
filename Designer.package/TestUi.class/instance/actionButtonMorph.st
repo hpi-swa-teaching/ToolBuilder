@@ -1,2 +1,0 @@
-buttonMorphMethods
-actionButtonMorph

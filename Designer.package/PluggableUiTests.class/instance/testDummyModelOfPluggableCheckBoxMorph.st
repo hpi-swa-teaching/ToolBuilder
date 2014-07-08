@@ -1,14 +1,8 @@
 tests
 testDummyModelOfPluggableCheckBoxMorph
 
-	| pluggableCheckBoxSpec pluggableCheckBoxMorph |	
-	pluggableCheckBoxSpec := PluggableCheckBoxSpec new.
-	pluggableCheckBoxSpec
-		label: #label; 
-		action: #action;
-		state: #state;
-		model: PluggableCheckBoxModel new.
-	pluggableCheckBoxMorph := ToolBuilder build: pluggableCheckBoxSpec.
+	| pluggableCheckBoxMorph |	
+	pluggableCheckBoxMorph := PluggableCheckBoxMorph pluggableDefault.
 	
 	self assert: pluggableCheckBoxMorph model notNil.
 	self assert: (pluggableCheckBoxMorph model respondsTo: #label). 

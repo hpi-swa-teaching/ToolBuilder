@@ -1,6 +1,8 @@
 *designer
 pluggableDefault
-	| pluggableTextMorph |
-	
-	pluggableTextMorph := ToolBuilder build: PluggableTextSpec new.
+
+	| pluggableTextMorph pluggableTextSpec |
+	pluggableTextSpec := PluggableTextSpec new.
+	pluggableTextSpec model: PluggableTextModel new.
+	pluggableTextMorph := ToolBuilder build: pluggableTextSpec.
 	^ pluggableTextMorph

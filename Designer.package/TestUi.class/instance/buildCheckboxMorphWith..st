@@ -1,9 +1,10 @@
 toolbuilder
-buildCheckboxMorphWith: builder
-	| checkboxMorph |
-	checkboxMorph := PluggableCheckBoxSpec new.
-	checkboxMorph model: self.
-	checkboxMorph action: #actionCheckboxMorph.
-	checkboxMorph label: #labelCheckboxMorph.
-	checkboxMorph state: #stateCheckboxMorph.
-	^checkboxMorph
+buildCheckBoxMorphWith: builder
+	| checkBoxMorph |
+	checkBoxMorph := PluggableCheckBoxSpec new.
+	checkBoxMorph model: self.
+	checkBoxMorph action: #checkBoxMorphAction.
+	checkBoxMorph label: #checkBoxMorphLabel.
+	checkBoxMorph state: #checkBoxMorphState.
+	checkBoxMorphState := false.
+	^checkBoxMorph

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBuildWithGeneration
 
 	| testUi | 
@@ -10,7 +10,7 @@ testBuildWithGeneration
 	self assert: (testUi respondsTo: #buildWindowWith:specs:).
 	self assert: (testUi respondsTo: #buildListMorphWith:).
 	self assert: (testUi respondsTo: #buildButtonMorphWith:).
-	self assert: (testUi respondsTo: #buildCheckboxMorphWith:).
+	self assert: (testUi respondsTo: #buildCheckBoxMorphWith:).
 	self assert: (testUi respondsTo: #buildTextMorphWith:).
 	self assert: (testUi respondsTo: #buildPanelMorphWith:).
 	self assert: (testUi respondsTo: #customCode).

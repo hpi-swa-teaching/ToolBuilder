@@ -1,16 +1,8 @@
 tests
 testDummyModelOfPluggableListMorph
 	
-	| pluggableListSpec pluggableListMorph |	
-	pluggableListSpec := PluggableListSpec new.
-	pluggableListSpec 
-		list: #list; 
-		getIndex: #getIndex;
-		setIndex: #setIndex:;
-		getSelected: #getSelected;
-		setSelected: #setSelected:;
-		model: PluggableListModel new.
-	pluggableListMorph := ToolBuilder build: pluggableListSpec.
+	| pluggableListMorph |	
+	pluggableListMorph := PluggableListMorph pluggableDefault.
 	
 	self assert: pluggableListMorph model notNil.
 	self assert: (pluggableListMorph model respondsTo: #getIndex). 

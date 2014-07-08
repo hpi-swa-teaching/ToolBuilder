@@ -5,11 +5,12 @@ testPluggableListGeneration
 
 	testUi := TestUi new.
 	
-	self assert: (testUi respondsTo: #getIndexListMorph).
-	self assert: (testUi respondsTo: #getSelectedListMorph).
-	self assert: (testUi respondsTo: #listListMorph).
-	self assert: (testUi respondsTo: #setSelectedListMorph:).
-	self assert: (testUi respondsTo: #setIndexListMorph:).
+	self assert: (testUi respondsTo: #listMorphGetIndex).
+	self assert: (testUi respondsTo: #listMorphGetSelected).
+	self assert: (testUi respondsTo: #listMorphList).
+	self assert: (testUi respondsTo: #listMorphSetSelected:).
+	self assert: (testUi respondsTo: #listMorphSetIndex:).
 	
-	self assert: (testUi getSelectedListMorph isKindOf: OrderedCollection).	
-	"self assert: (testUi getIndexListMorph isKindOf: )"
+	self assert: (testUi listMorphList isKindOf: Array).	
+	self assert: (testUi listMorphGetIndex isKindOf: Integer).
+	self assert: (testUi listMorphGetSelected isKindOf: ByteString).

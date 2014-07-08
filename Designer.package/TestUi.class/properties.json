@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"listMorphList",
+		"listMorphIndex",
+		"checkBoxMorphState" ],
 	"name" : "TestUi",
 	"pools" : [
 		 ],

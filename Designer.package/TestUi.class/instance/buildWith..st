@@ -5,11 +5,12 @@ buildWith: builder
 	| windowSpec |
 	
 	windowSpec := self buildWindowWith: builder specs: {
-		((1/20)@(29/300) corner: (7/20)@(149/300)) -> [self buildListMorphWith: builder].
-	((41/100)@(31/300) corner: (71/100)@(151/300)) -> [self buildTextMorphWith: builder].
-	((13/250)@(16/25) corner: (19/125)@(58/75)) -> [self buildPanelMorphWith: builder].
-	((279/500)@(109/150) corner: (351/500)@(39/50)) -> [self buildCheckboxMorphWith: builder].
-	((341/500)@(169/300) corner: (383/500)@(37/60)) -> [self buildButtonMorphWith: builder].
+		((4/125)@(29/300) corner: (83/250)@(149/300)) -> [self buildTextMorphWith: builder].
+	((207/500)@(13/150) corner: (357/500)@(73/150)) -> [self buildTreeMorphWith: builder].
+	((1/50)@(53/100) corner: (8/25)@(93/100)) -> [self buildListMorphWith: builder].
+	((114/125)@(187/150) corner: (263/250)@(41/30)) -> [self buildCheckBoxMorphWith: builder].
+	((227/500)@(31/50) corner: (277/500)@(113/150)) -> [self buildPanelMorphWith: builder].
+	((289/500)@(167/300) corner: (331/500)@(61/100)) -> [self buildButtonMorphWith: builder].
 	}.
 	self customCode.
 	^builder build: windowSpec
