@@ -7,6 +7,6 @@ generatePluggableUiClassFor: aMorph
 			step == #class
 				ifTrue: [self createPluggableUiClass].
 			step == #methods
-				ifTrue: [self createBuildWithMethods;  createOpen; createIsPluggableUi; createCustomCode.]]
+				ifTrue: [self createBuildWithMethodsFor: source]]
 		displayingProgress: [:step | (Dictionary newFrom: {#class -> 'Preparing class container...'. #accessors -> 'Creating accessors for named ui objects...'. #methods -> 'Generate buildWith-method code...'})
 				at: step]

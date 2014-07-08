@@ -3,10 +3,10 @@
 		"isPluggableClass" : "SK 7/7/2014 17:44",
 		"pluggableCategory" : "SK 7/7/2014 22:52",
 		"pluggableClassName" : "SK 7/7/2014 23:03",
-		"pluggableDefault" : "SK 7/8/2014 11:46",
+		"pluggableDefault" : "mpb 7/8/2014 17:35",
 		"widgetProperties" : "SK 6/10/2014 11:14" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "SK 6/10/2014 11:29",
+		"acceptDroppingMorph:event:" : "mpb 7/8/2014 20:45",
 		"changeFocusTo:" : "SK 6/10/2014 02:12",
 		"changeSelectionTo:" : "SK 6/10/2014 02:13",
 		"click:" : "SK 6/10/2014 03:12",
@@ -18,4 +18,4 @@
 		"mouseDown:" : "SK 6/10/2014 02:51",
 		"mouseDownPriority" : "SK 6/10/2014 03:12",
 		"selectionChanged:" : "SK 6/10/2014 02:14",
-		"startDrag:" : "SK 6/10/2014 03:01" } }
+		"startDrag:" : "mpb 7/8/2014 20:41" } }

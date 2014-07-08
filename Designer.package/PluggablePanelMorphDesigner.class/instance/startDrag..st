@@ -7,10 +7,11 @@ startDrag: evt
 		ifNone: [self dragEnabled
 			ifTrue: [self]
 			ifFalse: [nil]].
-	
+		
 	self changeFocusTo: nil.
 			
 	morphToDrag ifNil: [^ self].
 	
 	evt redButtonPressed
-		ifTrue: [evt hand grabMorph: morphToDrag].
+		ifTrue: [evt hand grabMorph: morphToDrag.
+			self children remove: morphToDrag ifAbsent: []].

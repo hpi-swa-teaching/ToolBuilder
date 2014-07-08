@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children" ],
+	"name" : "PluggablePanelModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
