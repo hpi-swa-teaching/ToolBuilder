@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"isPluggableUi" : "dh 7/1/2014 16:04",
+		"open" : "dh 7/1/2014 16:04" },
+	"instance" : {
+		"actionButtonMorph" : "dh 7/1/2014 16:04",
+		"actionCheckboxMorph" : "dh 7/1/2014 16:04",
+		"buildButtonMorphWith:" : "dh 7/1/2014 16:04",
+		"buildCheckboxMorphWith:" : "dh 7/1/2014 16:04",
+		"buildListMorphWith:" : "dh 7/1/2014 16:04",
+		"buildPanelMorphWith:" : "dh 7/1/2014 16:04",
+		"buildTextMorphWith:" : "dh 7/1/2014 16:04",
+		"buildWindowWith:" : "dh 7/1/2014 16:04",
+		"buildWindowWith:specs:" : "dh 7/1/2014 16:04",
+		"buildWith:" : "dh 7/1/2014 16:04",
+		"customCode" : "dh 7/1/2014 16:04",
+		"getIndexListMorph" : "dh 7/1/2014 16:04",
+		"getSelectedListMorph" : "dh 7/1/2014 16:04",
+		"labelButtonMorph" : "dh 7/1/2014 16:04",
+		"labelCheckboxMorph" : "dh 7/1/2014 16:04",
+		"listListMorph" : "dh 7/1/2014 16:04",
+		"setIndex:" : "dh 7/1/2014 16:04",
+		"setSelected:" : "dh 7/1/2014 16:04",
+		"stateCheckboxMorph" : "dh 7/1/2014 16:04" } }
