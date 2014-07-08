@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDummyModelOfPluggableButtonMorph" : "SK 6/24/2014 09:55",
-		"testDummyModelOfPluggableCheckBoxMorph" : "SK 6/24/2014 09:47",
-		"testDummyModelOfPluggableListMorph" : "dh 6/24/2014 15:43",
-		"testDummyModelOfPluggableTextMorph" : "SK 6/24/2014 09:49",
+		"testDummyModelOfPluggableButtonMorph" : "SK 7/8/2014 12:12",
+		"testDummyModelOfPluggableCheckBoxMorph" : "SK 7/8/2014 12:12",
+		"testDummyModelOfPluggableListMorph" : "SK 7/8/2014 12:12",
+		"testDummyModelOfPluggableTextMorph" : "SK 7/8/2014 12:11",
+		"testDummyModelOfPluggableTreeMorph" : "SK 7/8/2014 12:17",
 		"testPluggableNew" : "dh 6/24/2014 10:41" } }

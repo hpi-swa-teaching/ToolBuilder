@@ -1,10 +1,10 @@
 tests
 testDummyModelOfPluggableListMorph
 	
-	| pluggableListSpec pluggableListMorph |
-	
+	| pluggableListSpec pluggableListMorph |	
 	pluggableListSpec := PluggableListSpec new.
-	pluggableListSpec list: #list; 
+	pluggableListSpec 
+		list: #list; 
 		getIndex: #getIndex;
 		setIndex: #setIndex:;
 		getSelected: #getSelected;

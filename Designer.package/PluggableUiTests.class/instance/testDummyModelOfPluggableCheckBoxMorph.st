@@ -1,9 +1,10 @@
 tests
 testDummyModelOfPluggableCheckBoxMorph
-	| pluggableCheckBoxSpec pluggableCheckBoxMorph |
-	
+
+	| pluggableCheckBoxSpec pluggableCheckBoxMorph |	
 	pluggableCheckBoxSpec := PluggableCheckBoxSpec new.
-	pluggableCheckBoxSpec label: #label; 
+	pluggableCheckBoxSpec
+		label: #label; 
 		action: #action;
 		state: #state;
 		model: PluggableCheckBoxModel new.

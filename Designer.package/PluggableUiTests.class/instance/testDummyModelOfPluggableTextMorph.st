@@ -1,7 +1,7 @@
 tests
 testDummyModelOfPluggableTextMorph
-	| pluggableTextSpec pluggableTextMorph |
-	
+
+	| pluggableTextSpec pluggableTextMorph |	
 	pluggableTextSpec := PluggableTextSpec new.
 	pluggableTextMorph := ToolBuilder build: pluggableTextSpec.
 	
