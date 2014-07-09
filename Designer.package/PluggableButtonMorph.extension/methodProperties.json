@@ -4,6 +4,7 @@
 		"pluggableCategory" : "SK 7/7/2014 22:44",
 		"pluggableClassName" : "SK 7/7/2014 23:02",
 		"pluggableDefault" : "SK 7/8/2014 11:44",
-		"widgetProperties" : "SK 6/9/2014 23:55" },
+		"widgetProperties" : "SK 6/9/2014 23:55",
+		"widgetPropertiesToIgnore" : "SK 7/9/2014 21:15" },
 	"instance" : {
 		"model" : "mpb 6/18/2014 18:27" } }

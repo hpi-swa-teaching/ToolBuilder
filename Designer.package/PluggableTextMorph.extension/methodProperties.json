@@ -4,6 +4,7 @@
 		"pluggableCategory" : "SK 7/7/2014 22:53",
 		"pluggableClassName" : "SK 7/7/2014 23:03",
 		"pluggableDefault" : "dh 7/8/2014 15:48",
-		"widgetProperties" : "SK 6/10/2014 02:33" },
+		"widgetProperties" : "SK 6/10/2014 02:33",
+		"widgetPropertiesToIgnore" : "SK 7/9/2014 21:17" },
 	"instance" : {
 		 } }

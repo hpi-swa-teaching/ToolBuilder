@@ -4,7 +4,8 @@
 		"pluggableCategory" : "SK 7/7/2014 22:52",
 		"pluggableClassName" : "SK 7/7/2014 23:03",
 		"pluggableDefault" : "mpb 7/8/2014 17:35",
-		"widgetProperties" : "SK 6/10/2014 11:14" },
+		"widgetProperties" : "SK 6/10/2014 11:14",
+		"widgetPropertiesToIgnore" : "SK 7/9/2014 21:16" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "mpb 7/8/2014 20:45",
 		"changeFocusTo:" : "SK 6/10/2014 02:12",
