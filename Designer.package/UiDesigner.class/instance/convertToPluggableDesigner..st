@@ -11,7 +11,7 @@ convertToPluggableDesigner: aMorph
 			color: (Color r: 0.838 g: 0.804 b: 0.804)]
 		ifFalse: [panel
 			extent: aMorph extent;
-			color: Color transparent].
+			color: Color transparent.].
 	
 	panel
 		editMode: true;

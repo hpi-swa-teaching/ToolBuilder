@@ -15,7 +15,7 @@ pluggableOpen
 		title: 'Select UI class'.
 	
 	result ifNotNil: [:designClass |
-		self convertToPluggableDesigner: ((ToolBuilder default) build: designClass new).
+		self convertToPluggableDesigner: (ToolBuilder build: designClass new).
 		container topLeft: 0@0;
 			connectSignal: #selectionChanged: 
 			to: propertyTable 

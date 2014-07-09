@@ -13,6 +13,8 @@ addSubmorphsOf: aMorph to: aPanel
 				(self valueOfProperty: #objectName) ifNil: 
 					[self setProperty: #objectName toValue: (submorph name splitBy: ' ') first].
 				submorph class = PluggablePanelMorph 
-					ifTrue: [ submorph := self convertToPluggableDesigner: submorph].
+					ifTrue: [ | position | position := submorph position.
+						submorph := self convertToPluggableDesigner: submorph.
+						submorph position: position].
 				aPanel addMorph: submorph]].
 	
