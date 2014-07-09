@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 getSpecName: aMorph
 	 | morphClass pluggable pluggablePlus pluggableDesigner pluggableByItemPlus |
 	

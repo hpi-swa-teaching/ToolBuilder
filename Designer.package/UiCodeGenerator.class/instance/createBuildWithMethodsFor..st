@@ -1,8 +1,9 @@
-code generation - pluggable
+code - pluggable
 createBuildWithMethodsFor: aComposite
 	| stream isWindow |
 	stream := WriteStream on: ''.
 	isWindow := (aComposite owner class ~= PluggablePanelMorphDesigner).
+	self uiClass addInstVarName: aComposite objectName.
 	stream nextPutAll: 'build',
 		(isWindow ifTrue: [''] 
 				    ifFalse: [aComposite objectName asString capitalized]),
@@ -20,7 +21,7 @@ createBuildWithMethodsFor: aComposite
 	stream nextPutAll: (isWindow 
 		ifTrue: ['}.
 	window := builder build: windowSpec.
-	self initInstVars.
+	self initInstVarsOf: window.
 	self customCode.
 	^window']
 		ifFalse:['}.

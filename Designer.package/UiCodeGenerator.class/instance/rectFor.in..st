@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 rectFor: aMorph in: aComposite
 	| topLeft bottomRight |
 	topLeft := aMorph topLeft - aComposite topLeft / 

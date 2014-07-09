@@ -1,3 +1,3 @@
-code generation - pluggable
+code - pluggable
 createIsPluggableUi
 	self uiClass class compile: 'isPluggableUi' classified: 'toolbuilder'.

@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 createBuildCompositeWithSpecsMethod
 	self uiClass compile: 'buildComposite: aCompositeSpec with: builder specs: specs
 	specs do:[:assoc|

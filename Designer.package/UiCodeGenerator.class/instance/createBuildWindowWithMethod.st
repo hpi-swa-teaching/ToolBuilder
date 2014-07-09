@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 createBuildWindowWithMethod
 	| windowTitleHeight |
 	windowTitleHeight := 22.

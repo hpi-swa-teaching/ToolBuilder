@@ -1,21 +1,27 @@
 save/load - pluggable
 pluggableOpen
-	| result pluggableDesignes |
+	| result pluggableDesigns |
 	
 	self selectPluggableModel.
 	
-	pluggableDesignes := OrderedCollection new.
+	pluggableDesigns := OrderedCollection new.
 	Object allSubclasses 
 		do: [:subclass| 
 			(subclass respondsTo: #isPluggableUi) 
-				ifTrue: [pluggableDesignes add: subclass].].
+				ifTrue: [pluggableDesigns add: subclass].].
 	
 	result := ListChooser
-		chooseItemFrom: pluggableDesignes
+		chooseItemFrom: pluggableDesigns
 		title: 'Select UI class'.
 	
 	result ifNotNil: [:designClass |
 		self convertToPluggableDesigner: ((ToolBuilder default) build: designClass new).
-		container topLeft: 0@0.
+		container topLeft: 0@0;
+			connectSignal: #selectionChanged: 
+			to: propertyTable 
+			selector: #updateProperties: 
+			pattern: nil 
+			queue: nil 
+			blocking: false.
 		self ui centralScroller widget: container.
 		propertyTable updateProperties: container.].

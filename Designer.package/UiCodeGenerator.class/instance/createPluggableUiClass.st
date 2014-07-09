@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 createPluggableUiClass
 	Object
 		subclass: self uiClassName

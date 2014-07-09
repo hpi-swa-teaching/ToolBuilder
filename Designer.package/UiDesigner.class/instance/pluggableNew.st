@@ -7,7 +7,7 @@ pluggableNew
 		extent: 500@300.
 
 	container
-		color: (Color lightGray);
+		color: (Color r: 0.838 g: 0.804 b: 0.804);
 		editMode: true;
 		layoutPolicy: nil;
 		dragEnabled: false.

@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 createOpen
 	self uiClass class compile: 'open
 	| window |

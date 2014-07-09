@@ -1,22 +1,25 @@
 save/load - pluggable
 convertToPluggableDesigner: aMorph
-	
-	| windowTitleHeight |
+	| windowTitleHeight isWindow panel |
 	windowTitleHeight := 22.
+	(isWindow := (aMorph owner isKindOf: PluggablePanelMorph orOf: PluggableSystemWindow) not)
+		ifTrue: [aMorph openInHand].
 	
-	aMorph openInHand.
+	panel := PluggablePanelMorphDesigner pluggableDefault.
+	isWindow ifTrue: [ (container := panel)
+			extent: aMorph extent - (0@windowTitleHeight);
+			color: (Color r: 0.838 g: 0.804 b: 0.804)]
+		ifFalse: [panel
+			extent: aMorph extent;
+			color: Color transparent].
 	
-	container := PluggablePanelMorphDesigner new
-		extent: aMorph extent - (0@windowTitleHeight).
-
-	container
-		color: (Color lightGray);
+	panel
 		editMode: true;
 		layoutPolicy: nil;
 		dragEnabled: false.
 	
-	self addSubmorphs: aMorph to: container. 
+	self addSubmorphsOf: aMorph to: panel. 
 	
 	aMorph delete.
 	
-	container connectSignal: #selectionChanged: to: propertyTable selector: #updateProperties: pattern: nil queue: nil blocking: false.
+	^panel

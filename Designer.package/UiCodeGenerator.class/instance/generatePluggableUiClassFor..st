@@ -1,4 +1,4 @@
-code generation - pluggable
+code - pluggable
 generatePluggableUiClassFor: aMorph 
 	source := aMorph.
 	source objectName: #source.
