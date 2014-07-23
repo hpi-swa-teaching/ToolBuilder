@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01DummyModelOfPluggableButtonMorph" : "SK 7/22/2014 15:48",
+		"test02DummyModelOfPluggableCheckBoxMorph" : "SK 7/22/2014 15:52",
+		"test03DummyModelOfPluggableTextMorph" : "SK 7/22/2014 15:48",
+		"test04DummyModelOfPluggableListMorph" : "SK 7/22/2014 15:50",
+		"test05DummyModelOfPluggableTextMorph" : "SK 7/22/2014 15:49",
+		"test06PluggableNew" : "SK 7/23/2014 16:44" } }

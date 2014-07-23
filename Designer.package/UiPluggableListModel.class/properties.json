@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dummyList",
+		"dummyIndex" ],
+	"name" : "UiPluggableListModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

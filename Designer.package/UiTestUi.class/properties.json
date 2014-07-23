@@ -1,0 +1,16 @@
+{
+	"category" : "Designer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listMorphList",
+		"listMorphIndex",
+		"checkBoxMorphState" ],
+	"name" : "UiTestUi",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

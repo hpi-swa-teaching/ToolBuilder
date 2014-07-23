@@ -1,0 +1,4 @@
+properties
+isPluggableClass
+
+	^ self  = UiPluggablePanelMorphDesigner

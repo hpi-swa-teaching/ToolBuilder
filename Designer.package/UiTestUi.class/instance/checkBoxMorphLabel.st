@@ -1,0 +1,3 @@
+checkBoxMorphMethods
+checkBoxMorphLabel
+	^ 'Checkbox'

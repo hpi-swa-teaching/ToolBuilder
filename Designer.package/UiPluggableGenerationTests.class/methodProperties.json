@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "SK 7/22/2014 14:36",
+		"test01PluggableButtonGeneration" : "SK 7/22/2014 15:47",
+		"test02PluggableCheckboxGeneration" : "SK 7/22/2014 15:47",
+		"test03PluggableListGeneration" : "SK 7/22/2014 15:47",
+		"test04PluggableTreeMorphGeneration" : "SK 7/22/2014 15:48",
+		"test05BuildWithGeneration" : "SK 7/22/2014 15:48" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiPluggableTextModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

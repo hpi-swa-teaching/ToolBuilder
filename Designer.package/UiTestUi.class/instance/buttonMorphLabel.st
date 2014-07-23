@@ -1,0 +1,3 @@
+buttonMorphMethods
+buttonMorphLabel
+	^ 'Button'
