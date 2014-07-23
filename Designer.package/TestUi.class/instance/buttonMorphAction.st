@@ -1,3 +1,0 @@
-buttonMorphMethods
-buttonMorphAction
-	^ []

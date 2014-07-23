@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"children" ],
+		"dummyChildren" ],
 	"name" : "PluggablePanelModel",
 	"pools" : [
 		 ],

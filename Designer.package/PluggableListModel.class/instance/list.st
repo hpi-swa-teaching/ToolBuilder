@@ -1,3 +1,4 @@
 accessing
 list
-	^list ifNil: [ list := #('Dies ist' 'eine Liste' 'zum Klicken!' ':D')]
+
+	^ dummyList ifNil: [ dummyList := #('Dies ist' 'eine Liste' 'zum Klicken!' ':D')]

@@ -1,4 +1,4 @@
-code - pluggable
+code generation - pluggable
 createCustomCode
 
 	(self uiClass new respondsTo: #customCode) 

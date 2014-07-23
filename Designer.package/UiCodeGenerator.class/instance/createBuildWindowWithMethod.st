@@ -1,5 +1,6 @@
-code - pluggable
+code generation - pluggable
 createBuildWindowWithMethod
+
 	| windowTitleHeight |
 	windowTitleHeight := 22.
 	
@@ -11,5 +12,5 @@ createBuildWindowWithMethod
 	windowSpec label: ''{1}''.
 	windowSpec extent: {2}.
 	windowSpec children: OrderedCollection new.
-	^windowSpec' format: {self uiClass. source extent + (0@windowTitleHeight)})
-		classified: 'toolbuilder'
+	^ windowSpec' format: {self uiClass. source extent + (0@windowTitleHeight)})
+		classified: 'toolbuilder'.

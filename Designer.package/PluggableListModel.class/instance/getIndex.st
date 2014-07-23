@@ -1,3 +1,4 @@
 accessing
 getIndex
-	^index ifNil: [index := 1]
+
+	^ dummyIndex ifNil: [dummyIndex := 1]

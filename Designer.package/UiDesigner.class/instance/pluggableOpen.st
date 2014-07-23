@@ -1,5 +1,6 @@
 save/load - pluggable
 pluggableOpen
+
 	| result pluggableDesigns |
 	
 	self selectPluggableModel.
@@ -8,7 +9,7 @@ pluggableOpen
 	Object allSubclasses 
 		do: [:subclass| 
 			(subclass respondsTo: #isPluggableUi) 
-				ifTrue: [pluggableDesigns add: subclass].].
+				ifTrue: [pluggableDesigns add: subclass]].
 	
 	result := ListChooser
 		chooseItemFrom: pluggableDesigns
@@ -24,4 +25,4 @@ pluggableOpen
 			queue: nil 
 			blocking: false.
 		self ui centralScroller widget: container.
-		propertyTable updateProperties: container.].
+		propertyTable updateProperties: container].

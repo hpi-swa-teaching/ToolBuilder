@@ -1,3 +1,4 @@
 accessing
 setIndex: anIndex
-	index := anIndex
+
+	dummyIndex := anIndex

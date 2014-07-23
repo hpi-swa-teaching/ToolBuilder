@@ -1,3 +1,0 @@
-checkBoxMorphMethods
-checkBoxMorphState
-	^ checkBoxMorphState

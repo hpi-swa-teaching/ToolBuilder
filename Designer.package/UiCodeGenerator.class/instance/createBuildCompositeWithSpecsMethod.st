@@ -1,5 +1,6 @@
-code - pluggable
+code generation - pluggable
 createBuildCompositeWithSpecsMethod
+
 	self uiClass compile: 'buildComposite: aCompositeSpec with: builder specs: specs
 	specs do:[:assoc|
 		| rect action widgetSpec |
@@ -9,4 +10,4 @@ createBuildCompositeWithSpecsMethod
 		widgetSpec ifNotNil:[
 			widgetSpec frame: rect.
 			aCompositeSpec children add: widgetSpec]].
-	^aCompositeSpec' classified: 'toolbuilder'
+	^aCompositeSpec' classified: 'toolbuilder'.

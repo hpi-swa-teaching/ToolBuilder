@@ -1,3 +1,4 @@
 accessing
 state
-	^state ifNil:[ state := false]
+
+	^ dummyState ifNil:[ dummyState := false]

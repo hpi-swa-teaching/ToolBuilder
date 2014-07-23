@@ -1,5 +1,6 @@
 code generation - pluggable
 createBuildWindowWithSpecsMethod
+
 	self uiClass compile: 'buildWindowWith: builder specs: specs
 	| windowSpec |
 	windowSpec := self buildWindowWith: builder.
@@ -11,4 +12,4 @@ createBuildWindowWithSpecsMethod
 		widgetSpec ifNotNil:[
 			widgetSpec frame: rect.
 			windowSpec children add: widgetSpec]].
-	^windowSpec' classified: 'toolbuilder'
+	^ windowSpec' classified: 'toolbuilder'.

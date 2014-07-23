@@ -1,3 +1,4 @@
 accessing
 children
-	^(children ifNil: [children := OrderedCollection new])
+
+	^ (dummyChildren ifNil: [dummyChildren := OrderedCollection new])

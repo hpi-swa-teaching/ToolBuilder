@@ -1,3 +1,4 @@
 accessing
 getSelected
-	^list at: (index ifNil: [1])
+
+	^ dummyList at: (dummyIndex ifNil: [1])

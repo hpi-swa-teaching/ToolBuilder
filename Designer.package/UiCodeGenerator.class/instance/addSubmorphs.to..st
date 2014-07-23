@@ -1,5 +1,6 @@
-code - pluggable
+code generation - pluggable
 addSubmorphs: aComposite to: stream
+
 	| creationTemplate |
 	creationTemplate := '({1}) -> [self build{2}With: builder].'.
 	aComposite children

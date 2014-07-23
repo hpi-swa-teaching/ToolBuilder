@@ -1,5 +1,6 @@
-code - pluggable
-generatePluggableUiClassFor: aMorph 
+code generation - pluggable
+generatePluggableUiClassFor: aMorph
+
 	source := aMorph.
 	source objectName: #source.
 	#(#class #accessors #methods )
@@ -8,5 +9,6 @@ generatePluggableUiClassFor: aMorph
 				ifTrue: [self createPluggableUiClass].
 			step == #methods
 				ifTrue: [self createBuildWithMethodsFor: source]]
-		displayingProgress: [:step | (Dictionary newFrom: {#class -> 'Preparing class container...'. #accessors -> 'Creating accessors for named ui objects...'. #methods -> 'Generate buildWith-method code...'})
-				at: step]
+		displayingProgress: [:step | (Dictionary newFrom: {#class -> 'Preparing class container...'. 
+			#accessors -> 'Creating accessors for named ui objects...'.
+			#methods -> 'Generate buildWith-method code...'}) at: step].

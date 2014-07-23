@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list",
-		"index" ],
+		"dummyList",
+		"dummyIndex" ],
 	"name" : "PluggableListModel",
 	"pools" : [
 		 ],

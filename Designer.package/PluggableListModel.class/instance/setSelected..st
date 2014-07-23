@@ -1,3 +1,4 @@
 accessing
 setSelected: anObject
-	self setIndex: (list indexOf: anObject)
+
+	self setIndex: (dummyList indexOf: anObject)

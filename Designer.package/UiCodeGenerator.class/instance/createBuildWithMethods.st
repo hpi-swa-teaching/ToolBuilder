@@ -1,5 +1,6 @@
 code generation - pluggable
 createBuildWithMethods
+
 	| stream |
 	stream := WriteStream on: ''.
 	stream nextPutAll: 'buildWith: builder
@@ -12,4 +13,4 @@ createBuildWithMethods
 	self injectPluggableUiCodeFor: source into: stream.
 	self uiClass compile: stream contents classified: 'toolbuilder'.
 	self createBuildWindowWithSpecsMethod.
-	self createBuildWindowWithMethod
+	self createBuildWindowWithMethod.
