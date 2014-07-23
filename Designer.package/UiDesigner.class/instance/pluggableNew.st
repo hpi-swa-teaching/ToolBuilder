@@ -3,7 +3,7 @@ pluggableNew
 
 	self selectPluggableModel.
 
-	container := (PluggablePanelMorphDesigner pluggableDefault)
+	container := (UiPluggablePanelMorphDesigner pluggableDefault)
 		extent: 500@300.
 
 	container

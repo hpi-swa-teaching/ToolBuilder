@@ -4,7 +4,7 @@ pluggableDefault
 	
 	pluggableButtonSpec := PluggableButtonSpec new.
 	pluggableButtonSpec
-		model: PluggableButtonModel new; 
+		model: UiPluggableButtonModel new; 
 		label: #label;
 		action: #action.
 	pluggableButtonMorph := ToolBuilder build: pluggableButtonSpec.

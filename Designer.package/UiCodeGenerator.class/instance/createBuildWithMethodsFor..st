@@ -3,7 +3,7 @@ createBuildWithMethodsFor: aComposite
 
 	| stream isWindow |
 	stream := WriteStream on: ''.
-	isWindow := (aComposite owner class ~= PluggablePanelMorphDesigner).
+	isWindow := (aComposite owner class ~= UiPluggablePanelMorphDesigner).
 	self uiClass addInstVarName: aComposite objectName.
 	stream nextPutAll: 'build',
 		(isWindow ifTrue: [''] 

@@ -6,7 +6,7 @@ pluggableDefault
 	pluggableCheckBoxSpec label: #label;
 		action: #action;
 		state: #state;
-		model: PluggableCheckBoxModel new.
+		model: UiPluggableCheckBoxModel new.
 	pluggableCheckBoxMorph := ToolBuilder build: pluggableCheckBoxSpec. 
 	pluggableCheckBoxMorph 
 		color: Color white;

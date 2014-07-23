@@ -5,7 +5,7 @@ addSubmorphs: aComposite to: stream
 	creationTemplate := '({1}) -> [self build{2}With: builder].'.
 	aComposite children
 		do: [ :child | 
-			child class = PluggablePanelMorphDesigner 
+			child class = UiPluggablePanelMorphDesigner 
 				ifTrue: [	self createBuildWithMethodsFor: child]
 				ifFalse: [ self createBuildWithFor: child].
 			stream

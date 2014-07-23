@@ -4,7 +4,7 @@ pluggableDefault
 	| pluggableListMorph pluggableListSpec |
 	pluggableListSpec := PluggableListSpec new.
 	pluggableListSpec 
-		model: PluggableListModel new;
+		model: UiPluggableListModel new;
 		list: #list;
 		getIndex: #getIndex;
 		setIndex: #setIndex:;

@@ -3,7 +3,7 @@ addSubmorphs: aPanel to: stream with: creationTemplate
 
 	aPanel submorphs
 		do: [:submorph | 
-			submorph class = PluggablePanelMorphDesigner 
+			submorph class = UiPluggablePanelMorphDesigner 
 				ifTrue: [ | tmpPanel |
 					tmpPanel := ToolBuilder build: PluggablePanelSpec new.
 					submorph submorphs 

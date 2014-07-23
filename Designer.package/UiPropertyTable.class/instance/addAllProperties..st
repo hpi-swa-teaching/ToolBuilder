@@ -6,8 +6,8 @@ addAllProperties: aMorph
 	
 	self addPropertyLabel: 'Type' editor: (UiLabel new text: aMorph class asString).
 	
-	((aMorph isKindOf: UiContainer orOf: PluggablePanelMorphDesigner) 
-		and: [(aMorph owner isKindOf: UiContainer orOf: PluggablePanelMorphDesigner) not])
+	((aMorph isKindOf: UiContainer orOf: UiPluggablePanelMorphDesigner) 
+		and: [(aMorph owner isKindOf: UiContainer orOf: UiPluggablePanelMorphDesigner) not])
 		ifTrue: [
 			editor := editorFactory
 				editorForProperty: #uiClassName

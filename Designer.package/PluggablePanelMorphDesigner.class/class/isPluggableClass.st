@@ -1,4 +1,0 @@
-properties
-isPluggableClass
-
-	^ self  = PluggablePanelMorphDesigner

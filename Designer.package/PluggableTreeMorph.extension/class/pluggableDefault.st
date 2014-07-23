@@ -4,7 +4,7 @@ pluggableDefault
 	| pluggableTreeSpec pluggableTreeMorph |
 	pluggableTreeSpec := PluggableTreeSpec new.
 	pluggableTreeSpec
-		model: PluggableTreeModel new;
+		model: UiPluggableTreeModel new;
 		roots: #roots.
 	pluggableTreeMorph := ToolBuilder build: pluggableTreeSpec.
 	pluggableTreeMorph color: Color white;

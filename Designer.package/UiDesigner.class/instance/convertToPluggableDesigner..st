@@ -6,7 +6,7 @@ convertToPluggableDesigner: aMorph
 	(isWindow := (aMorph owner isKindOf: PluggablePanelMorph orOf: PluggableSystemWindow) not)
 		ifTrue: [aMorph openInHand].
 	
-	panel := PluggablePanelMorphDesigner pluggableDefault.
+	panel := UiPluggablePanelMorphDesigner pluggableDefault.
 	isWindow ifTrue: [ (container := panel)
 			extent: aMorph extent - (0@windowTitleHeight);
 			color: (Color r: 0.838 g: 0.804 b: 0.804)]

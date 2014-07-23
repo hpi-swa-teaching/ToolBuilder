@@ -1,4 +1,0 @@
-properties
-pluggableCategory
-	
-	^ 'Pluggable Morphs'
