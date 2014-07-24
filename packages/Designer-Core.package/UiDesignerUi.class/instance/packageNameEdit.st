@@ -1,3 +1,0 @@
-accessing
-packageNameEdit
-	^ packageNameEdit

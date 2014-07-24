@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-ar.66'message 'Fix UIManager>>edit:label:accept: to not evaluate the accept block initially.'id 'd8c9f589-e7d0-5349-9e38-b4c06f023b3f'date '22 July 2010'time '8:00:14.791 pm'author 'ar'ancestors ((id '8e9c3431-ddbc-43f6-a77c-0fc2599cf789'))stepChildren ())

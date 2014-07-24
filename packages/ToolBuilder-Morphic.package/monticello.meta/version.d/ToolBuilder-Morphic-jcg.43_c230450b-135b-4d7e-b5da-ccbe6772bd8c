@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-jcg.43'message 'ChooserTool now allows you to double-click to choose.  Requires ToolBuilder-Kernel-jcg.24 for double-click support in PluggableListSpec.'id 'c230450b-135b-4d7e-b5da-ccbe6772bd8c'date '12 December 2009'time '10:55:13 am'author 'jcg'ancestors ((id '8475c341-b9e6-d344-aabb-492b26a6f1ed'))stepChildren ())

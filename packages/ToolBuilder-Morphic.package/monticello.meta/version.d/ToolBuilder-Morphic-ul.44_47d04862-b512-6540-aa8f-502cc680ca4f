@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-ul.44'message '- replace sends of #ifNotNilDo: to #ifNotNil:, #ifNil:ifNotNilDo: to #ifNil:ifNotNil:, #ifNotNilDo:ifNil: to #ifNotNil:ifNil:'id '47d04862-b512-6540-aa8f-502cc680ca4f'date '12 December 2009'time '2:51:46 am'author 'ul'ancestors ((id '3709d488-9bc5-a545-867e-9c517becf5d1'))stepChildren ())

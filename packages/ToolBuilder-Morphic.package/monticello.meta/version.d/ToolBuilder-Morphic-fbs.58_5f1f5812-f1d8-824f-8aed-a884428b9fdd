@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-fbs.58'message 'Support for Mantis 7517: a spawned workspace has no context menu. Instead of building the Workspace''s model by hand, just ask the Workspace to do it itself.'id '5f1f5812-f1d8-824f-8aed-a884428b9fdd'date '28 April 2010'time '10:32:38.987 pm'author 'fbs'ancestors ((id '816ab07d-c643-c14f-ace6-f8d22b086a4f'))stepChildren ())

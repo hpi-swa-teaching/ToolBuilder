@@ -1,3 +1,0 @@
-signals
-closed
-	self emit

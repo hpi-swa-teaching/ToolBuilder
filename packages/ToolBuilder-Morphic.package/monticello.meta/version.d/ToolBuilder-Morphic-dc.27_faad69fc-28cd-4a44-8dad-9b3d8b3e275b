@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-dc.27'message '- MorphicToolBuilder>>setFram:in: updated to recognize real layout frames for flexibility. This patch comes from UIEnhancements.'id 'faad69fc-28cd-4a44-8dad-9b3d8b3e275b'date '10 January 2008'time '2:19:55 pm'author 'dc'ancestors ((id '0b424395-ddf6-419a-ba37-a8c16dab6f3f'))stepChildren ())

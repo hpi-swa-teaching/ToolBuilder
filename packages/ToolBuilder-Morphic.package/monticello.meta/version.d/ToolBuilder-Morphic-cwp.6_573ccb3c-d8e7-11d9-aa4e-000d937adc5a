@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-cwp.6'message 'Added a couple of methods to support PluggableMenuSpec. For now, we get away with using MenuMorph rather than PluggableMenuSpec because they are protocol compatible.'id '573ccb3c-d8e7-11d9-aa4e-000d937adc5a'date '9 June 2005'time '9:06:49 am'author 'cwp'ancestors ((id '480061f3-1977-1047-aa3f-b8d4d1690bad'))stepChildren ())

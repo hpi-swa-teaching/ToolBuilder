@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-mtf.70'message 'made toolbuilder respect the isDialog preference of window specs. Needed by Cobalt'id '3c7f73d0-3004-43a7-bf47-58d2e998fef3'date '4 February 2011'time '2:41:28.599 pm'author 'mtf'ancestors ((id '3e5e6fe0-da9a-3141-bfd3-a7ad24d63eb7'))stepChildren ())

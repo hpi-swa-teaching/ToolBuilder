@@ -1,3 +1,0 @@
-accessing
-prop
-	^ prop

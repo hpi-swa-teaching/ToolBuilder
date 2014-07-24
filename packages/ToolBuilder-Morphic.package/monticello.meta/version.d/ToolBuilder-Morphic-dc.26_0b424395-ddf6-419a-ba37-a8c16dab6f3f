@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-dc.26'message '- Fixes 6684: No way of specifying okLabel and cancelLabel in UIManager>>confirm:'id '0b424395-ddf6-419a-ba37-a8c16dab6f3f'date '10 January 2008'time '8:25:24 am'author 'dc'ancestors ((id '4be79ff3-340e-45f9-9e60-1c8127ecfcde'))stepChildren ())

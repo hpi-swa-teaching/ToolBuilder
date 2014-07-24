@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-ar.56'message 'Do not hardcode the color for Workspaces from UIManager; they need to adhere to the window color policy in use.'id '645bc8d6-6e1a-8046-9fbf-e4f9c692f2c4'date '9 April 2010'time '9:42:50.883 pm'author 'ar'ancestors ((id 'f457e745-c735-5540-a739-8b91f540b075'))stepChildren ())

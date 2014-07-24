@@ -1,1 +1,0 @@
-(name 'ToolBuilder-Morphic-cwp.87'message 'Fixed a cosmetic issue: PluggableListMorphs created by ToolBuilder should have unobtrusive borders even if they aren''t embedded directly in a system window.'id '41d57ed4-1d8c-40df-8b66-13218e0b3c3c'date '24 October 2012'time '4:04:09.791 pm'author 'cwp'ancestors ((id '569006ce-65da-4aec-aa47-cc82284627e1'))stepChildren ())
